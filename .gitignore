@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.venv/
+*.pth
+*.pt
+*.pkl
+*.ckpt
+data/
+checkpoints/
+third_party/

@@ -1,0 +1,198 @@
+diff --git a/detectron2/config/defaults.py b/detectron2/config/defaults.py
+index c1f2164..c3e80ec 100644
+--- a/detectron2/config/defaults.py
++++ b/detectron2/config/defaults.py
+@@ -781,6 +781,11 @@ _C.DE.OUT_INDICES = None
+ _C.DE.BG_CLS_LOSS_WEIGHT = None
+ _C.DE.MULTIPLY_RPN_SCORE = False
+ _C.DE.OFFLINE_RPN_CONFIG = None
++# [SQR-C0 integration] path to a pkl of external proposals:
++# {file_name: {"boxes": np.ndarray [N,4] XYXY_ABS in ORIGINAL image coords,
++#              "scores": np.ndarray [N]}}
++# When set (non-empty), inference uses these proposals instead of the offline RPN.
++_C.DE.EXTERNAL_PROPOSALS_FILE = ""
+ _C.DE.OFFLINE_RPN_LSJ_PRETRAINED = False
+ _C.DE.OFFLINE_RPN_NMS_THRESH = None
+ _C.DE.OFFLINE_RPN_POST_NMS_TOPK_TEST = None
+\ No newline at end of file
+diff --git a/detectron2/data/datasets/builtin.py b/detectron2/data/datasets/builtin.py
+index 86efc7c..9b21abf 100644
+--- a/detectron2/data/datasets/builtin.py
++++ b/detectron2/data/datasets/builtin.py
+@@ -317,7 +317,7 @@ def register_all_ade20k(root):
+         )
+ 
+ # custom datasets
+-datasets_name = ('ArTaxOr', 'clipart1k')#, 'DIOR', 'FISH', 'NEUDET', 'UODD')
++datasets_name = ('ArTaxOr', 'clipart1k', 'DIOR')#, 'FISH', 'NEUDET', 'UODD')
+ 
+ _PREDEFINED_CD = []
+ for dataset in datasets_name:
+@@ -328,12 +328,52 @@ for dataset in datasets_name:
+ 
+ def register_all_CD(root):
+     for name, image_dir, json_file in _PREDEFINED_CD:
++        if not os.path.exists(os.path.join(root, json_file)):
++            continue
+         with open(os.path.join(root, json_file), "r", encoding="utf-8") as f:
+             data = json.load(f)
+         classes = [i["name"] for i in data["categories"]]
+         register_coco_instances(name, {}, os.path.join(root, json_file), os.path.join(root, image_dir))
+         MetadataCatalog.get(name).set(thing_classes=classes)
+ 
++    # Register the frozen support episodes used by the DIOR D protocol.
++    for _seed in ('2023', '42', '1234', '7', '99'):
++        for _shot in (1, 5, 10):
++            _name = f'DIOR_{_shot}shot_seed{_seed}'
++            _jf = os.path.join(root, 'DIOR', 'annotations', f'{_shot}_shot_seed{_seed}.json')
++            _id = os.path.join(root, 'DIOR', 'train')
++            if os.path.exists(_jf):
++                with open(_jf, 'r', encoding='utf-8') as f:
++                    classes = [i['name'] for i in json.load(f)['categories']]
++                register_coco_instances(_name, {}, _jf, _id)
++                MetadataCatalog.get(_name).set(thing_classes=classes)
++    # Frozen DOTA-v1.0 HBB support chips. The annotation JSON exposes only
++    # selected support instances; validation parents are never registered here.
++    for _seed in ('2023', '42', '1234', '7', '99'):
++        for _shot in (1, 5, 10):
++            _name = f'DOTA_HBB_{_shot}shot_seed{_seed}'
++            _jf = os.path.join(root, 'DOTA', 'annotations',
++                               f'{_shot}_shot_seed{_seed}.json')
++            _id = os.path.join(root, 'DOTA', 'train')
++            if os.path.exists(_jf):
++                with open(_jf, 'r', encoding='utf-8') as f:
++                    classes = [i['name'] for i in json.load(f)['categories']]
++                register_coco_instances(_name, {}, _jf, _id)
++                MetadataCatalog.get(_name).set(thing_classes=classes)
++    _jf = os.path.join(root, 'DIOR', 'annotations', 'dev100.json')
++    if os.path.exists(_jf):
++        with open(_jf, 'r', encoding='utf-8') as f:
++            classes = [i['name'] for i in json.load(f)['categories']]
++        register_coco_instances('DIOR_dev100', {}, _jf, os.path.join(root, 'DIOR', 'test'))
++        MetadataCatalog.get('DIOR_dev100').set(thing_classes=classes)
++    # staged-validation subset (first 5 frozen dev queries)
++    _jf5 = os.path.join(root, 'DIOR', 'annotations', 'dev5.json')
++    if os.path.exists(_jf5):
++        with open(_jf5, 'r', encoding='utf-8') as f:
++            classes = [i['name'] for i in json.load(f)['categories']]
++        register_coco_instances('DIOR_dev5', {}, _jf5, os.path.join(root, 'DIOR', 'test'))
++        MetadataCatalog.get('DIOR_dev5').set(thing_classes=classes)
++
+ # True for open source;
+ # Internally at fb, we register them elsewhere
+ if __name__.endswith(".builtin"):
+diff --git a/detectron2/modeling/meta_arch/devit.py b/detectron2/modeling/meta_arch/devit.py
+index 06cf316..dfc80a3 100644
+--- a/detectron2/modeling/meta_arch/devit.py
++++ b/detectron2/modeling/meta_arch/devit.py
+@@ -1,5 +1,6 @@
+ # Copyright (c) Facebook, Inc. and its affiliates.
+ import math
++import os
+ import random
+ import logging
+ import numpy as np
+@@ -483,9 +484,12 @@ class OpenSetDetectorWithExamples(nn.Module):
+                  set_cd_vito=False,
+                  attn_fuse_ratio=0.7,
+                  train_test_overlap=True,
+-                 controller=False
++                 controller=False,
++                 external_proposals_file="",
+                  ):
+         super().__init__()
++        self._external_proposals = None
++        self._external_proposals_file = external_proposals_file or ""
+         if ',' in class_prototypes_file:
+             class_prototypes_file = class_prototypes_file.split(',')
+         self.register_buffer("pixel_mean", torch.tensor(pixel_mean).view(-1, 1, 1), False)
+@@ -916,6 +920,8 @@ class OpenSetDetectorWithExamples(nn.Module):
+ 
+             "mult_rpn_score": cfg.DE.MULTIPLY_RPN_SCORE,
+ 
++            "external_proposals_file": cfg.DE.EXTERNAL_PROPOSALS_FILE,
++
+             "num_cls_layers": cfg.DE.NUM_CLS_LAYERS,
+ 
+             "use_one_shot": cfg.DE.ONE_SHOT_MODE,
+@@ -1110,14 +1116,37 @@ class OpenSetDetectorWithExamples(nn.Module):
+         num_classes = len(class_weights)
+ 
+         with torch.no_grad():
+-            if self.offline_backbone.training or self.offline_proposal_generator.training:
+-                self.offline_backbone.eval()
+-                self.offline_proposal_generator.eval()
++            if self._external_proposals_file:
++                # [SQR-C0 integration] external proposals (e.g. PF-RPN) replace
++                # the offline RPN at inference time. Boxes are XYXY_ABS in
++                # ORIGINAL image coordinates; DIOR test images are 800x800 and
++                # the test resize is the identity, so no rescaling is applied.
++                if self._external_proposals is None:
++                    import pickle as _pkl
++                    with open(self._external_proposals_file, "rb") as _f:
++                        self._external_proposals = _pkl.load(_f)
++                proposals = []
++                for _x in batched_inputs:
++                    _fn = os.path.basename(_x["file_name"])
++                    _rec = self._external_proposals[_fn]
++                    _boxes = torch.as_tensor(
++                        np.asarray(_rec["boxes"]), dtype=torch.float32, device=self.device)
++                    _scores = torch.as_tensor(
++                        np.asarray(_rec["scores"]), dtype=torch.float32, device=self.device)
++                    _inst = Instances((_x["height"], _x["width"]))
++                    _inst.proposal_boxes = Boxes(_boxes)
++                    _inst.objectness_logits = _scores
++                    proposals.append(_inst)
++                images = self.preprocess_image(batched_inputs)
++            else:
++                if self.offline_backbone.training or self.offline_proposal_generator.training:
++                    self.offline_backbone.eval()
++                    self.offline_proposal_generator.eval()
+ 
+-            images = self.offline_preprocess_image(batched_inputs)
+-            features = self.offline_backbone(images.tensor)
+-            proposals, _ = self.offline_proposal_generator(images, features, None)
+-            images = self.preprocess_image(batched_inputs)
++                images = self.offline_preprocess_image(batched_inputs)
++                features = self.offline_backbone(images.tensor)
++                proposals, _ = self.offline_proposal_generator(images, features, None)
++                images = self.preprocess_image(batched_inputs)
+ 
+         with torch.no_grad():
+             if self.backbone.training: self.backbone.eval()
+@@ -1612,6 +1641,14 @@ class OpenSetDetectorWithExamples(nn.Module):
+                 rpn_scores = [x.objectness_logits for x in proposals][0]
+                 rpn_scores[rpn_scores < 0] = 0
+                 scores = (scores * rpn_scores[:, None]) ** 0.5
++            # DOTA parent evaluation needs class scores and regressed boxes
++            # before any chip-level threshold, NMS or detection cap. This
++            # opt-in path leaves the standard DIOR inference path unchanged.
++            if getattr(self, "_scqe_return_raw_detections", False):
++                if self.mult_rpn_score or self.use_mask:
++                    raise RuntimeError("raw DOTA output requires class-only scores and no masks")
++                return [dict(raw_scores=scores[:, :-1], raw_boxes=predict_boxes,
++                             raw_image_size=image_size)]
+             instances, _ = fast_rcnn_inference(
+                 [predict_boxes],
+                 [scores],
+diff --git a/lib/categories.py b/lib/categories.py
+index 40cf097..52dd224 100644
+--- a/lib/categories.py
++++ b/lib/categories.py
+@@ -100,6 +100,16 @@ for dataset in datasets_name:
+     ALL_CLS_DICT[f'{dataset}_5shot'] = CLASS_NAME[f'{dataset}_classes']
+     ALL_CLS_DICT[f'{dataset}_10shot'] = CLASS_NAME[f'{dataset}_classes']
+ 
++    # Frozen support episodes; each shot/seed has its own registered dataset.
++    for _seed in ('2023', '42', '1234', '7', '99'):
++        for _shot in (1, 5, 10):
++            SEEN_CLS_DICT[f'{dataset}_{_shot}shot_seed{_seed}'] = CLASS_NAME[f'{dataset}_classes']
++            ALL_CLS_DICT[f'{dataset}_{_shot}shot_seed{_seed}'] = CLASS_NAME[f'{dataset}_classes']
++    SEEN_CLS_DICT[f'{dataset}_dev100'] = CLASS_NAME[f'{dataset}_classes']
++    ALL_CLS_DICT[f'{dataset}_dev100'] = CLASS_NAME[f'{dataset}_classes']
++    SEEN_CLS_DICT[f'{dataset}_dev5'] = CLASS_NAME[f'{dataset}_classes']
++    ALL_CLS_DICT[f'{dataset}_dev5'] = CLASS_NAME[f'{dataset}_classes']
++
+ if __name__ == "__main__":
+     print("COCO_2017_SPLIT_1 (seen)", SEEN_CLS_DICT[COCO_2017_SPLIT_1])
+     print("COCO_2017_SPLIT_1 (unseen)", [c for c in ALL_CLS_DICT[COCO_2017_SPLIT_1] if c not in SEEN_CLS_DICT[COCO_2017_SPLIT_1]])
