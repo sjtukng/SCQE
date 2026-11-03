@@ -1,0 +1,2037 @@
+{
+  "meta": {
+    "train_annotation": {
+      "path": "/home/root-user/projects/PF_RPN_SR/data/DIOR/annotations/train.json",
+      "sha256": "888ee4588efb824c8ddcce87f9f04d6c47bf9ddae86f0fa00c6b9b088840335b",
+      "images": 18463,
+      "annotations": 152602
+    },
+    "test_annotation": {
+      "path": "/home/root-user/projects/PF_RPN_SR/data/DIOR/annotations/test.json",
+      "sha256": "6f446c7e24b8e4b92f9dc71127ca80ca0363a0037a428acd81de31aff500e28f",
+      "images": 5000,
+      "annotations": 28810
+    },
+    "dev_query_seed": 20231010,
+    "dev_query_count": 100,
+    "support_seeds": [
+      2023,
+      42,
+      1234,
+      7,
+      99
+    ],
+    "shots": [
+      1,
+      5,
+      10
+    ],
+    "nesting": "per seed, sampled per class: 1-shot subset of 5-shot subset of 10-shot"
+  },
+  "seed": 7,
+  "shot": 5,
+  "support": [
+    {
+      "instance_id": 32630,
+      "image_id": 7687,
+      "image_path": "train/new_train/07687.jpg",
+      "class_id": 0,
+      "category": "Expressway-Service-area",
+      "box_xyxy": [
+        10.0,
+        558.0,
+        38.0,
+        584.0
+      ],
+      "area": 728.0
+    },
+    {
+      "instance_id": 67405,
+      "image_id": 14879,
+      "image_path": "train/new_train/14879.jpg",
+      "class_id": 0,
+      "category": "Expressway-Service-area",
+      "box_xyxy": [
+        163.0,
+        71.0,
+        492.0,
+        415.0
+      ],
+      "area": 113176.0
+    },
+    {
+      "instance_id": 142582,
+      "image_id": 22453,
+      "image_path": "train/new_train/22453.jpg",
+      "class_id": 0,
+      "category": "Expressway-Service-area",
+      "box_xyxy": [
+        362.0,
+        174.0,
+        786.0,
+        620.0
+      ],
+      "area": 189104.0
+    },
+    {
+      "instance_id": 3756,
+      "image_id": 742,
+      "image_path": "train/new_train/00742.jpg",
+      "class_id": 0,
+      "category": "Expressway-Service-area",
+      "box_xyxy": [
+        273.0,
+        84.0,
+        441.0,
+        460.0
+      ],
+      "area": 63168.0
+    },
+    {
+      "instance_id": 97740,
+      "image_id": 18008,
+      "image_path": "train/new_train/18008.jpg",
+      "class_id": 0,
+      "category": "Expressway-Service-area",
+      "box_xyxy": [
+        314.0,
+        75.0,
+        671.0,
+        740.0
+      ],
+      "area": 237405.0
+    },
+    {
+      "instance_id": 86460,
+      "image_id": 16838,
+      "image_path": "train/new_train/16838.jpg",
+      "class_id": 1,
+      "category": "Expressway-toll-station",
+      "box_xyxy": [
+        692.0,
+        579.0,
+        722.0,
+        610.0
+      ],
+      "area": 930.0
+    },
+    {
+      "instance_id": 16925,
+      "image_id": 3257,
+      "image_path": "train/new_train/03257.jpg",
+      "class_id": 1,
+      "category": "Expressway-toll-station",
+      "box_xyxy": [
+        187.0,
+        252.0,
+        370.0,
+        381.0
+      ],
+      "area": 23607.0
+    },
+    {
+      "instance_id": 14873,
+      "image_id": 2839,
+      "image_path": "train/new_train/02839.jpg",
+      "class_id": 1,
+      "category": "Expressway-toll-station",
+      "box_xyxy": [
+        441.0,
+        397.0,
+        538.0,
+        497.0
+      ],
+      "area": 9700.0
+    },
+    {
+      "instance_id": 57217,
+      "image_id": 13859,
+      "image_path": "train/new_train/13859.jpg",
+      "class_id": 1,
+      "category": "Expressway-toll-station",
+      "box_xyxy": [
+        647.0,
+        416.0,
+        714.0,
+        471.0
+      ],
+      "area": 3685.0
+    },
+    {
+      "instance_id": 24495,
+      "image_id": 4751,
+      "image_path": "train/new_train/04751.jpg",
+      "class_id": 1,
+      "category": "Expressway-toll-station",
+      "box_xyxy": [
+        514.0,
+        371.0,
+        639.0,
+        488.0
+      ],
+      "area": 14625.0
+    },
+    {
+      "instance_id": 45663,
+      "image_id": 12679,
+      "image_path": "train/new_train/12679.jpg",
+      "class_id": 2,
+      "category": "airplane",
+      "box_xyxy": [
+        153.0,
+        549.0,
+        176.0,
+        570.0
+      ],
+      "area": 483.0
+    },
+    {
+      "instance_id": 99063,
+      "image_id": 18176,
+      "image_path": "train/new_train/18176.jpg",
+      "class_id": 2,
+      "category": "airplane",
+      "box_xyxy": [
+        549.0,
+        666.0,
+        607.0,
+        712.0
+      ],
+      "area": 2668.0
+    },
+    {
+      "instance_id": 99611,
+      "image_id": 18250,
+      "image_path": "train/new_train/18250.jpg",
+      "class_id": 2,
+      "category": "airplane",
+      "box_xyxy": [
+        338.0,
+        645.0,
+        385.0,
+        685.0
+      ],
+      "area": 1880.0
+    },
+    {
+      "instance_id": 9094,
+      "image_id": 1706,
+      "image_path": "train/new_train/01706.jpg",
+      "class_id": 2,
+      "category": "airplane",
+      "box_xyxy": [
+        142.0,
+        151.0,
+        285.0,
+        295.0
+      ],
+      "area": 20592.0
+    },
+    {
+      "instance_id": 67730,
+      "image_id": 14916,
+      "image_path": "train/new_train/14916.jpg",
+      "class_id": 2,
+      "category": "airplane",
+      "box_xyxy": [
+        652.0,
+        149.0,
+        700.0,
+        200.0
+      ],
+      "area": 2448.0
+    },
+    {
+      "instance_id": 3684,
+      "image_id": 718,
+      "image_path": "train/new_train/00718.jpg",
+      "class_id": 3,
+      "category": "airport",
+      "box_xyxy": [
+        517.0,
+        88.0,
+        590.0,
+        677.0
+      ],
+      "area": 42997.0
+    },
+    {
+      "instance_id": 27107,
+      "image_id": 5284,
+      "image_path": "train/new_train/05284.jpg",
+      "class_id": 3,
+      "category": "airport",
+      "box_xyxy": [
+        567.0,
+        90.0,
+        692.0,
+        762.0
+      ],
+      "area": 84000.0
+    },
+    {
+      "instance_id": 5377,
+      "image_id": 944,
+      "image_path": "train/new_train/00944.jpg",
+      "class_id": 3,
+      "category": "airport",
+      "box_xyxy": [
+        338.0,
+        113.0,
+        717.0,
+        643.0
+      ],
+      "area": 200870.0
+    },
+    {
+      "instance_id": 99599,
+      "image_id": 18249,
+      "image_path": "train/new_train/18249.jpg",
+      "class_id": 3,
+      "category": "airport",
+      "box_xyxy": [
+        107.0,
+        123.0,
+        649.0,
+        374.0
+      ],
+      "area": 136042.0
+    },
+    {
+      "instance_id": 145889,
+      "image_id": 22782,
+      "image_path": "train/new_train/22782.jpg",
+      "class_id": 3,
+      "category": "airport",
+      "box_xyxy": [
+        385.0,
+        154.0,
+        500.0,
+        700.0
+      ],
+      "area": 62790.0
+    },
+    {
+      "instance_id": 96041,
+      "image_id": 17813,
+      "image_path": "train/new_train/17813.jpg",
+      "class_id": 4,
+      "category": "baseballfield",
+      "box_xyxy": [
+        607.0,
+        696.0,
+        674.0,
+        775.0
+      ],
+      "area": 5293.0
+    },
+    {
+      "instance_id": 148247,
+      "image_id": 23028,
+      "image_path": "train/new_train/23028.jpg",
+      "class_id": 4,
+      "category": "baseballfield",
+      "box_xyxy": [
+        420.0,
+        491.0,
+        554.0,
+        627.0
+      ],
+      "area": 18224.0
+    },
+    {
+      "instance_id": 92083,
+      "image_id": 17455,
+      "image_path": "train/new_train/17455.jpg",
+      "class_id": 4,
+      "category": "baseballfield",
+      "box_xyxy": [
+        447.0,
+        22.0,
+        596.0,
+        167.0
+      ],
+      "area": 21605.0
+    },
+    {
+      "instance_id": 127800,
+      "image_id": 20966,
+      "image_path": "train/new_train/20966.jpg",
+      "class_id": 4,
+      "category": "baseballfield",
+      "box_xyxy": [
+        450.0,
+        255.0,
+        583.0,
+        385.0
+      ],
+      "area": 17290.0
+    },
+    {
+      "instance_id": 147899,
+      "image_id": 22983,
+      "image_path": "train/new_train/22983.jpg",
+      "class_id": 4,
+      "category": "baseballfield",
+      "box_xyxy": [
+        147.0,
+        86.0,
+        192.0,
+        119.0
+      ],
+      "area": 1485.0
+    },
+    {
+      "instance_id": 6100,
+      "image_id": 1124,
+      "image_path": "train/new_train/01124.jpg",
+      "class_id": 5,
+      "category": "basketballcourt",
+      "box_xyxy": [
+        58.0,
+        153.0,
+        129.0,
+        198.0
+      ],
+      "area": 3195.0
+    },
+    {
+      "instance_id": 109545,
+      "image_id": 19279,
+      "image_path": "train/new_train/19279.jpg",
+      "class_id": 5,
+      "category": "basketballcourt",
+      "box_xyxy": [
+        399.0,
+        296.0,
+        482.0,
+        445.0
+      ],
+      "area": 12367.0
+    },
+    {
+      "instance_id": 63904,
+      "image_id": 14572,
+      "image_path": "train/new_train/14572.jpg",
+      "class_id": 5,
+      "category": "basketballcourt",
+      "box_xyxy": [
+        221.0,
+        328.0,
+        400.0,
+        439.0
+      ],
+      "area": 19869.0
+    },
+    {
+      "instance_id": 28131,
+      "image_id": 5474,
+      "image_path": "train/new_train/05474.jpg",
+      "class_id": 5,
+      "category": "basketballcourt",
+      "box_xyxy": [
+        49.0,
+        361.0,
+        120.0,
+        475.0
+      ],
+      "area": 8094.0
+    },
+    {
+      "instance_id": 119614,
+      "image_id": 20241,
+      "image_path": "train/new_train/20241.jpg",
+      "class_id": 5,
+      "category": "basketballcourt",
+      "box_xyxy": [
+        264.0,
+        288.0,
+        433.0,
+        445.0
+      ],
+      "area": 26533.0
+    },
+    {
+      "instance_id": 90502,
+      "image_id": 17315,
+      "image_path": "train/new_train/17315.jpg",
+      "class_id": 6,
+      "category": "bridge",
+      "box_xyxy": [
+        84.0,
+        191.0,
+        591.0,
+        491.0
+      ],
+      "area": 152100.0
+    },
+    {
+      "instance_id": 67372,
+      "image_id": 14873,
+      "image_path": "train/new_train/14873.jpg",
+      "class_id": 6,
+      "category": "bridge",
+      "box_xyxy": [
+        630.0,
+        359.0,
+        661.0,
+        380.0
+      ],
+      "area": 651.0
+    },
+    {
+      "instance_id": 110076,
+      "image_id": 19365,
+      "image_path": "train/new_train/19365.jpg",
+      "class_id": 6,
+      "category": "bridge",
+      "box_xyxy": [
+        113.0,
+        71.0,
+        126.0,
+        94.0
+      ],
+      "area": 299.0
+    },
+    {
+      "instance_id": 22907,
+      "image_id": 4455,
+      "image_path": "train/new_train/04455.jpg",
+      "class_id": 6,
+      "category": "bridge",
+      "box_xyxy": [
+        85.0,
+        90.0,
+        109.0,
+        110.0
+      ],
+      "area": 480.0
+    },
+    {
+      "instance_id": 25619,
+      "image_id": 4950,
+      "image_path": "train/new_train/04950.jpg",
+      "class_id": 6,
+      "category": "bridge",
+      "box_xyxy": [
+        251.0,
+        347.0,
+        549.0,
+        488.0
+      ],
+      "area": 42018.0
+    },
+    {
+      "instance_id": 10090,
+      "image_id": 1912,
+      "image_path": "train/new_train/01912.jpg",
+      "class_id": 7,
+      "category": "chimney",
+      "box_xyxy": [
+        354.0,
+        303.0,
+        564.0,
+        601.0
+      ],
+      "area": 62580.0
+    },
+    {
+      "instance_id": 23398,
+      "image_id": 4587,
+      "image_path": "train/new_train/04587.jpg",
+      "class_id": 7,
+      "category": "chimney",
+      "box_xyxy": [
+        320.0,
+        121.0,
+        636.0,
+        419.0
+      ],
+      "area": 94168.0
+    },
+    {
+      "instance_id": 139290,
+      "image_id": 22132,
+      "image_path": "train/new_train/22132.jpg",
+      "class_id": 7,
+      "category": "chimney",
+      "box_xyxy": [
+        549.0,
+        608.0,
+        616.0,
+        664.0
+      ],
+      "area": 3752.0
+    },
+    {
+      "instance_id": 48219,
+      "image_id": 12953,
+      "image_path": "train/new_train/12953.jpg",
+      "class_id": 7,
+      "category": "chimney",
+      "box_xyxy": [
+        450.0,
+        180.0,
+        579.0,
+        274.0
+      ],
+      "area": 12126.0
+    },
+    {
+      "instance_id": 48220,
+      "image_id": 12953,
+      "image_path": "train/new_train/12953.jpg",
+      "class_id": 7,
+      "category": "chimney",
+      "box_xyxy": [
+        579.0,
+        207.0,
+        710.0,
+        306.0
+      ],
+      "area": 12969.0
+    },
+    {
+      "instance_id": 46117,
+      "image_id": 12743,
+      "image_path": "train/new_train/12743.jpg",
+      "class_id": 8,
+      "category": "dam",
+      "box_xyxy": [
+        93.0,
+        264.0,
+        334.0,
+        664.0
+      ],
+      "area": 96400.0
+    },
+    {
+      "instance_id": 135689,
+      "image_id": 21833,
+      "image_path": "train/new_train/21833.jpg",
+      "class_id": 8,
+      "category": "dam",
+      "box_xyxy": [
+        388.0,
+        365.0,
+        579.0,
+        572.0
+      ],
+      "area": 39537.0
+    },
+    {
+      "instance_id": 8994,
+      "image_id": 1683,
+      "image_path": "train/new_train/01683.jpg",
+      "class_id": 8,
+      "category": "dam",
+      "box_xyxy": [
+        445.0,
+        207.0,
+        684.0,
+        524.0
+      ],
+      "area": 75763.0
+    },
+    {
+      "instance_id": 44383,
+      "image_id": 12576,
+      "image_path": "train/new_train/12576.jpg",
+      "class_id": 8,
+      "category": "dam",
+      "box_xyxy": [
+        193.0,
+        225.0,
+        651.0,
+        474.0
+      ],
+      "area": 114042.0
+    },
+    {
+      "instance_id": 25396,
+      "image_id": 4920,
+      "image_path": "train/new_train/04920.jpg",
+      "class_id": 8,
+      "category": "dam",
+      "box_xyxy": [
+        254.0,
+        393.0,
+        584.0,
+        578.0
+      ],
+      "area": 61050.0
+    },
+    {
+      "instance_id": 134801,
+      "image_id": 21732,
+      "image_path": "train/new_train/21732.jpg",
+      "class_id": 9,
+      "category": "golffield",
+      "box_xyxy": [
+        265.0,
+        338.0,
+        528.0,
+        712.0
+      ],
+      "area": 98362.0
+    },
+    {
+      "instance_id": 10228,
+      "image_id": 1952,
+      "image_path": "train/new_train/01952.jpg",
+      "class_id": 9,
+      "category": "golffield",
+      "box_xyxy": [
+        83.0,
+        165.0,
+        396.0,
+        706.0
+      ],
+      "area": 169333.0
+    },
+    {
+      "instance_id": 120453,
+      "image_id": 20303,
+      "image_path": "train/new_train/20303.jpg",
+      "class_id": 9,
+      "category": "golffield",
+      "box_xyxy": [
+        311.0,
+        367.0,
+        553.0,
+        572.0
+      ],
+      "area": 49610.0
+    },
+    {
+      "instance_id": 73768,
+      "image_id": 15493,
+      "image_path": "train/new_train/15493.jpg",
+      "class_id": 9,
+      "category": "golffield",
+      "box_xyxy": [
+        221.0,
+        179.0,
+        610.0,
+        630.0
+      ],
+      "area": 175439.0
+    },
+    {
+      "instance_id": 83743,
+      "image_id": 16546,
+      "image_path": "train/new_train/16546.jpg",
+      "class_id": 9,
+      "category": "golffield",
+      "box_xyxy": [
+        162.0,
+        296.0,
+        258.0,
+        386.0
+      ],
+      "area": 8640.0
+    },
+    {
+      "instance_id": 97772,
+      "image_id": 18012,
+      "image_path": "train/new_train/18012.jpg",
+      "class_id": 10,
+      "category": "groundtrackfield",
+      "box_xyxy": [
+        469.0,
+        418.0,
+        506.0,
+        481.0
+      ],
+      "area": 2331.0
+    },
+    {
+      "instance_id": 17667,
+      "image_id": 3435,
+      "image_path": "train/new_train/03435.jpg",
+      "class_id": 10,
+      "category": "groundtrackfield",
+      "box_xyxy": [
+        431.0,
+        503.0,
+        480.0,
+        605.0
+      ],
+      "area": 4998.0
+    },
+    {
+      "instance_id": 112216,
+      "image_id": 19589,
+      "image_path": "train/new_train/19589.jpg",
+      "class_id": 10,
+      "category": "groundtrackfield",
+      "box_xyxy": [
+        185.0,
+        277.0,
+        217.0,
+        331.0
+      ],
+      "area": 1728.0
+    },
+    {
+      "instance_id": 102012,
+      "image_id": 18481,
+      "image_path": "train/new_train/18481.jpg",
+      "class_id": 10,
+      "category": "groundtrackfield",
+      "box_xyxy": [
+        139.0,
+        387.0,
+        214.0,
+        423.0
+      ],
+      "area": 2700.0
+    },
+    {
+      "instance_id": 30656,
+      "image_id": 5785,
+      "image_path": "train/new_train/05785.jpg",
+      "class_id": 10,
+      "category": "groundtrackfield",
+      "box_xyxy": [
+        27.0,
+        121.0,
+        771.0,
+        514.0
+      ],
+      "area": 292392.0
+    },
+    {
+      "instance_id": 87529,
+      "image_id": 16984,
+      "image_path": "train/new_train/16984.jpg",
+      "class_id": 11,
+      "category": "harbor",
+      "box_xyxy": [
+        270.0,
+        124.0,
+        307.0,
+        355.0
+      ],
+      "area": 8547.0
+    },
+    {
+      "instance_id": 37143,
+      "image_id": 11906,
+      "image_path": "train/new_train/11906.jpg",
+      "class_id": 11,
+      "category": "harbor",
+      "box_xyxy": [
+        218.0,
+        511.0,
+        539.0,
+        640.0
+      ],
+      "area": 41409.0
+    },
+    {
+      "instance_id": 148519,
+      "image_id": 23070,
+      "image_path": "train/new_train/23070.jpg",
+      "class_id": 11,
+      "category": "harbor",
+      "box_xyxy": [
+        542.0,
+        493.0,
+        605.0,
+        672.0
+      ],
+      "area": 11277.0
+    },
+    {
+      "instance_id": 107965,
+      "image_id": 19113,
+      "image_path": "train/new_train/19113.jpg",
+      "class_id": 11,
+      "category": "harbor",
+      "box_xyxy": [
+        473.0,
+        105.0,
+        724.0,
+        659.0
+      ],
+      "area": 139054.0
+    },
+    {
+      "instance_id": 97748,
+      "image_id": 18010,
+      "image_path": "train/new_train/18010.jpg",
+      "class_id": 11,
+      "category": "harbor",
+      "box_xyxy": [
+        182.0,
+        200.0,
+        617.0,
+        647.0
+      ],
+      "area": 194445.0
+    },
+    {
+      "instance_id": 35562,
+      "image_id": 11677,
+      "image_path": "train/new_train/11677.jpg",
+      "class_id": 12,
+      "category": "overpass",
+      "box_xyxy": [
+        51.0,
+        320.0,
+        281.0,
+        510.0
+      ],
+      "area": 43700.0
+    },
+    {
+      "instance_id": 41417,
+      "image_id": 12283,
+      "image_path": "train/new_train/12283.jpg",
+      "class_id": 12,
+      "category": "overpass",
+      "box_xyxy": [
+        110.0,
+        275.0,
+        681.0,
+        596.0
+      ],
+      "area": 183291.0
+    },
+    {
+      "instance_id": 48045,
+      "image_id": 12934,
+      "image_path": "train/new_train/12934.jpg",
+      "class_id": 12,
+      "category": "overpass",
+      "box_xyxy": [
+        328.0,
+        202.0,
+        524.0,
+        598.0
+      ],
+      "area": 77616.0
+    },
+    {
+      "instance_id": 22276,
+      "image_id": 4326,
+      "image_path": "train/new_train/04326.jpg",
+      "class_id": 12,
+      "category": "overpass",
+      "box_xyxy": [
+        315.0,
+        461.0,
+        508.0,
+        551.0
+      ],
+      "area": 17370.0
+    },
+    {
+      "instance_id": 65043,
+      "image_id": 14674,
+      "image_path": "train/new_train/14674.jpg",
+      "class_id": 12,
+      "category": "overpass",
+      "box_xyxy": [
+        253.0,
+        111.0,
+        577.0,
+        666.0
+      ],
+      "area": 179820.0
+    },
+    {
+      "instance_id": 32322,
+      "image_id": 7501,
+      "image_path": "train/new_train/07501.jpg",
+      "class_id": 13,
+      "category": "ship",
+      "box_xyxy": [
+        512.0,
+        307.0,
+        571.0,
+        329.0
+      ],
+      "area": 1298.0
+    },
+    {
+      "instance_id": 114001,
+      "image_id": 19727,
+      "image_path": "train/new_train/19727.jpg",
+      "class_id": 13,
+      "category": "ship",
+      "box_xyxy": [
+        510.0,
+        123.0,
+        539.0,
+        200.0
+      ],
+      "area": 2233.0
+    },
+    {
+      "instance_id": 78570,
+      "image_id": 15979,
+      "image_path": "train/new_train/15979.jpg",
+      "class_id": 13,
+      "category": "ship",
+      "box_xyxy": [
+        347.0,
+        579.0,
+        395.0,
+        683.0
+      ],
+      "area": 4992.0
+    },
+    {
+      "instance_id": 61095,
+      "image_id": 14260,
+      "image_path": "train/new_train/14260.jpg",
+      "class_id": 13,
+      "category": "ship",
+      "box_xyxy": [
+        530.0,
+        488.0,
+        564.0,
+        500.0
+      ],
+      "area": 408.0
+    },
+    {
+      "instance_id": 79059,
+      "image_id": 16035,
+      "image_path": "train/new_train/16035.jpg",
+      "class_id": 13,
+      "category": "ship",
+      "box_xyxy": [
+        635.0,
+        711.0,
+        643.0,
+        730.0
+      ],
+      "area": 152.0
+    },
+    {
+      "instance_id": 89165,
+      "image_id": 17182,
+      "image_path": "train/new_train/17182.jpg",
+      "class_id": 14,
+      "category": "stadium",
+      "box_xyxy": [
+        302.0,
+        237.0,
+        536.0,
+        599.0
+      ],
+      "area": 84708.0
+    },
+    {
+      "instance_id": 8246,
+      "image_id": 1504,
+      "image_path": "train/new_train/01504.jpg",
+      "class_id": 14,
+      "category": "stadium",
+      "box_xyxy": [
+        188.0,
+        285.0,
+        448.0,
+        547.0
+      ],
+      "area": 68120.0
+    },
+    {
+      "instance_id": 135217,
+      "image_id": 21775,
+      "image_path": "train/new_train/21775.jpg",
+      "class_id": 14,
+      "category": "stadium",
+      "box_xyxy": [
+        206.0,
+        154.0,
+        286.0,
+        250.0
+      ],
+      "area": 7680.0
+    },
+    {
+      "instance_id": 86,
+      "image_id": 18,
+      "image_path": "train/new_train/00018.jpg",
+      "class_id": 14,
+      "category": "stadium",
+      "box_xyxy": [
+        154.0,
+        58.0,
+        637.0,
+        676.0
+      ],
+      "area": 298494.0
+    },
+    {
+      "instance_id": 89743,
+      "image_id": 17234,
+      "image_path": "train/new_train/17234.jpg",
+      "class_id": 14,
+      "category": "stadium",
+      "box_xyxy": [
+        565.0,
+        548.0,
+        597.0,
+        585.0
+      ],
+      "area": 1184.0
+    },
+    {
+      "instance_id": 70034,
+      "image_id": 15146,
+      "image_path": "train/new_train/15146.jpg",
+      "class_id": 15,
+      "category": "storagetank",
+      "box_xyxy": [
+        275.0,
+        420.0,
+        283.0,
+        427.0
+      ],
+      "area": 56.0
+    },
+    {
+      "instance_id": 143455,
+      "image_id": 22532,
+      "image_path": "train/new_train/22532.jpg",
+      "class_id": 15,
+      "category": "storagetank",
+      "box_xyxy": [
+        511.0,
+        211.0,
+        533.0,
+        233.0
+      ],
+      "area": 484.0
+    },
+    {
+      "instance_id": 56854,
+      "image_id": 13806,
+      "image_path": "train/new_train/13806.jpg",
+      "class_id": 15,
+      "category": "storagetank",
+      "box_xyxy": [
+        230.0,
+        182.0,
+        243.0,
+        195.0
+      ],
+      "area": 169.0
+    },
+    {
+      "instance_id": 74994,
+      "image_id": 15634,
+      "image_path": "train/new_train/15634.jpg",
+      "class_id": 15,
+      "category": "storagetank",
+      "box_xyxy": [
+        316.0,
+        163.0,
+        378.0,
+        232.0
+      ],
+      "area": 4278.0
+    },
+    {
+      "instance_id": 95820,
+      "image_id": 17801,
+      "image_path": "train/new_train/17801.jpg",
+      "class_id": 15,
+      "category": "storagetank",
+      "box_xyxy": [
+        176.0,
+        611.0,
+        198.0,
+        633.0
+      ],
+      "area": 484.0
+    },
+    {
+      "instance_id": 32138,
+      "image_id": 7146,
+      "image_path": "train/new_train/07146.jpg",
+      "class_id": 16,
+      "category": "tenniscourt",
+      "box_xyxy": [
+        476.0,
+        494.0,
+        650.0,
+        629.0
+      ],
+      "area": 23490.0
+    },
+    {
+      "instance_id": 61528,
+      "image_id": 14319,
+      "image_path": "train/new_train/14319.jpg",
+      "class_id": 16,
+      "category": "tenniscourt",
+      "box_xyxy": [
+        591.0,
+        260.0,
+        653.0,
+        372.0
+      ],
+      "area": 6944.0
+    },
+    {
+      "instance_id": 44254,
+      "image_id": 12571,
+      "image_path": "train/new_train/12571.jpg",
+      "class_id": 16,
+      "category": "tenniscourt",
+      "box_xyxy": [
+        46.0,
+        49.0,
+        112.0,
+        190.0
+      ],
+      "area": 9306.0
+    },
+    {
+      "instance_id": 134955,
+      "image_id": 21753,
+      "image_path": "train/new_train/21753.jpg",
+      "class_id": 16,
+      "category": "tenniscourt",
+      "box_xyxy": [
+        668.0,
+        415.0,
+        714.0,
+        514.0
+      ],
+      "area": 4554.0
+    },
+    {
+      "instance_id": 125509,
+      "image_id": 20754,
+      "image_path": "train/new_train/20754.jpg",
+      "class_id": 16,
+      "category": "tenniscourt",
+      "box_xyxy": [
+        673.0,
+        685.0,
+        706.0,
+        752.0
+      ],
+      "area": 2211.0
+    },
+    {
+      "instance_id": 37635,
+      "image_id": 11960,
+      "image_path": "train/new_train/11960.jpg",
+      "class_id": 17,
+      "category": "trainstation",
+      "box_xyxy": [
+        42.0,
+        457.0,
+        329.0,
+        605.0
+      ],
+      "area": 42476.0
+    },
+    {
+      "instance_id": 144359,
+      "image_id": 22589,
+      "image_path": "train/new_train/22589.jpg",
+      "class_id": 17,
+      "category": "trainstation",
+      "box_xyxy": [
+        265.0,
+        391.0,
+        598.0,
+        618.0
+      ],
+      "area": 75591.0
+    },
+    {
+      "instance_id": 5919,
+      "image_id": 1078,
+      "image_path": "train/new_train/01078.jpg",
+      "class_id": 17,
+      "category": "trainstation",
+      "box_xyxy": [
+        342.0,
+        209.0,
+        433.0,
+        552.0
+      ],
+      "area": 31213.0
+    },
+    {
+      "instance_id": 40159,
+      "image_id": 12161,
+      "image_path": "train/new_train/12161.jpg",
+      "class_id": 17,
+      "category": "trainstation",
+      "box_xyxy": [
+        257.0,
+        199.0,
+        559.0,
+        664.0
+      ],
+      "area": 140430.0
+    },
+    {
+      "instance_id": 107724,
+      "image_id": 19069,
+      "image_path": "train/new_train/19069.jpg",
+      "class_id": 17,
+      "category": "trainstation",
+      "box_xyxy": [
+        185.0,
+        291.0,
+        565.0,
+        414.0
+      ],
+      "area": 46740.0
+    },
+    {
+      "instance_id": 89699,
+      "image_id": 17218,
+      "image_path": "train/new_train/17218.jpg",
+      "class_id": 18,
+      "category": "vehicle",
+      "box_xyxy": [
+        328.0,
+        288.0,
+        337.0,
+        311.0
+      ],
+      "area": 207.0
+    },
+    {
+      "instance_id": 90716,
+      "image_id": 17336,
+      "image_path": "train/new_train/17336.jpg",
+      "class_id": 18,
+      "category": "vehicle",
+      "box_xyxy": [
+        667.0,
+        236.0,
+        682.0,
+        249.0
+      ],
+      "area": 195.0
+    },
+    {
+      "instance_id": 23029,
+      "image_id": 4481,
+      "image_path": "train/new_train/04481.jpg",
+      "class_id": 18,
+      "category": "vehicle",
+      "box_xyxy": [
+        487.0,
+        513.0,
+        499.0,
+        526.0
+      ],
+      "area": 156.0
+    },
+    {
+      "instance_id": 44989,
+      "image_id": 12602,
+      "image_path": "train/new_train/12602.jpg",
+      "class_id": 18,
+      "category": "vehicle",
+      "box_xyxy": [
+        347.0,
+        218.0,
+        358.0,
+        222.0
+      ],
+      "area": 44.0
+    },
+    {
+      "instance_id": 128271,
+      "image_id": 21027,
+      "image_path": "train/new_train/21027.jpg",
+      "class_id": 18,
+      "category": "vehicle",
+      "box_xyxy": [
+        72.0,
+        566.0,
+        88.0,
+        585.0
+      ],
+      "area": 304.0
+    },
+    {
+      "instance_id": 76583,
+      "image_id": 15783,
+      "image_path": "train/new_train/15783.jpg",
+      "class_id": 19,
+      "category": "windmill",
+      "box_xyxy": [
+        676.0,
+        263.0,
+        701.0,
+        282.0
+      ],
+      "area": 475.0
+    },
+    {
+      "instance_id": 147969,
+      "image_id": 22996,
+      "image_path": "train/new_train/22996.jpg",
+      "class_id": 19,
+      "category": "windmill",
+      "box_xyxy": [
+        712.0,
+        364.0,
+        752.0,
+        393.0
+      ],
+      "area": 1160.0
+    },
+    {
+      "instance_id": 145900,
+      "image_id": 22784,
+      "image_path": "train/new_train/22784.jpg",
+      "class_id": 19,
+      "category": "windmill",
+      "box_xyxy": [
+        660.0,
+        761.0,
+        695.0,
+        790.0
+      ],
+      "area": 1015.0
+    },
+    {
+      "instance_id": 14412,
+      "image_id": 2786,
+      "image_path": "train/new_train/02786.jpg",
+      "class_id": 19,
+      "category": "windmill",
+      "box_xyxy": [
+        626.0,
+        626.0,
+        681.0,
+        682.0
+      ],
+      "area": 3080.0
+    },
+    {
+      "instance_id": 58013,
+      "image_id": 13950,
+      "image_path": "train/new_train/13950.jpg",
+      "class_id": 19,
+      "category": "windmill",
+      "box_xyxy": [
+        623.0,
+        51.0,
+        650.0,
+        81.0
+      ],
+      "area": 810.0
+    }
+  ],
+  "dev_queries": [
+    {
+      "image_id": 6644,
+      "image_path": "test/new_test/06644.jpg",
+      "width": 800,
+      "height": 800
+    },
+    {
+      "image_id": 8091,
+      "image_path": "test/new_test/08091.jpg",
+      "width": 800,
+      "height": 800
+    },
+    {
+      "image_id": 9120,
+      "image_path": "test/new_test/09120.jpg",
+      "width": 800,
+      "height": 800
+    },
+    {
+      "image_id": 8536,
+      "image_path": "test/new_test/08536.jpg",
+      "width": 800,
+      "height": 800
+    },
+    {
+      "image_id": 9460,
+      "image_path": "test/new_test/09460.jpg",
+      "width": 800,
+      "height": 800
+    },
+    {
+      "image_id": 7972,
+      "image_path": "test/new_test/07972.jpg",
+      "width": 800,
+      "height": 800
+    },
+    {
+      "image_id": 9943,
+      "image_path": "test/new_test/09943.jpg",
+      "width": 800,
+      "height": 800
+    },
+    {
+      "image_id": 8850,
+      "image_path": "test/new_test/08850.jpg",
+      "width": 800,
+      "height": 800
+    },
+    {
+      "image_id": 11071,
+      "image_path": "test/new_test/11071.jpg",
+      "width": 800,
+      "height": 800
+    },
+    {
+      "image_id": 9311,
+      "image_path": "test/new_test/09311.jpg",
+      "width": 800,
+      "height": 800
+    },
+    {
+      "image_id": 10272,
+      "image_path": "test/new_test/10272.jpg",
+      "width": 800,
+      "height": 800
+    },
+    {
+      "image_id": 6736,
+      "image_path": "test/new_test/06736.jpg",
+      "width": 800,
+      "height": 800
+    },
+    {
+      "image_id": 8465,
+      "image_path": "test/new_test/08465.jpg",
+      "width": 800,
+      "height": 800
+    },
+    {
+      "image_id": 6946,
+      "image_path": "test/new_test/06946.jpg",
+      "width": 800,
+      "height": 800
+    },
+    {
+      "image_id": 9508,
+      "image_path": "test/new_test/09508.jpg",
+      "width": 800,
+      "height": 800
+    },
+    {
+      "image_id": 8711,
+      "image_path": "test/new_test/08711.jpg",
+      "width": 800,
+      "height": 800
+    },
+    {
+      "image_id": 11717,
+      "image_path": "test/new_test/11717.jpg",
+      "width": 800,
+      "height": 800
+    },
+    {
+      "image_id": 10307,
+      "image_path": "test/new_test/10307.jpg",
+      "width": 800,
+      "height": 800
+    },
+    {
+      "image_id": 6071,
+      "image_path": "test/new_test/06071.jpg",
+      "width": 800,
+      "height": 800
+    },
+    {
+      "image_id": 7179,
+      "image_path": "test/new_test/07179.jpg",
+      "width": 800,
+      "height": 800
+    },
+    {
+      "image_id": 5939,
+      "image_path": "test/new_test/05939.jpg",
+      "width": 800,
+      "height": 800
+    },
+    {
+      "image_id": 7250,
+      "image_path": "test/new_test/07250.jpg",
+      "width": 800,
+      "height": 800
+    },
+    {
+      "image_id": 7023,
+      "image_path": "test/new_test/07023.jpg",
+      "width": 800,
+      "height": 800
+    },
+    {
+      "image_id": 8245,
+      "image_path": "test/new_test/08245.jpg",
+      "width": 800,
+      "height": 800
+    },
+    {
+      "image_id": 9052,
+      "image_path": "test/new_test/09052.jpg",
+      "width": 800,
+      "height": 800
+    },
+    {
+      "image_id": 9345,
+      "image_path": "test/new_test/09345.jpg",
+      "width": 800,
+      "height": 800
+    },
+    {
+      "image_id": 11357,
+      "image_path": "test/new_test/11357.jpg",
+      "width": 800,
+      "height": 800
+    },
+    {
+      "image_id": 8069,
+      "image_path": "test/new_test/08069.jpg",
+      "width": 800,
+      "height": 800
+    },
+    {
+      "image_id": 10560,
+      "image_path": "test/new_test/10560.jpg",
+      "width": 800,
+      "height": 800
+    },
+    {
+      "image_id": 7603,
+      "image_path": "test/new_test/07603.jpg",
+      "width": 800,
+      "height": 800
+    },
+    {
+      "image_id": 7717,
+      "image_path": "test/new_test/07717.jpg",
+      "width": 800,
+      "height": 800
+    },
+    {
+      "image_id": 11136,
+      "image_path": "test/new_test/11136.jpg",
+      "width": 800,
+      "height": 800
+    },
+    {
+      "image_id": 11543,
+      "image_path": "test/new_test/11543.jpg",
+      "width": 800,
+      "height": 800
+    },
+    {
+      "image_id": 10294,
+      "image_path": "test/new_test/10294.jpg",
+      "width": 800,
+      "height": 800
+    },
+    {
+      "image_id": 9396,
+      "image_path": "test/new_test/09396.jpg",
+      "width": 800,
+      "height": 800
+    },
+    {
+      "image_id": 9718,
+      "image_path": "test/new_test/09718.jpg",
+      "width": 800,
+      "height": 800
+    },
+    {
+      "image_id": 6930,
+      "image_path": "test/new_test/06930.jpg",
+      "width": 800,
+      "height": 800
+    },
+    {
+      "image_id": 10237,
+      "image_path": "test/new_test/10237.jpg",
+      "width": 800,
+      "height": 800
+    },
+    {
+      "image_id": 11166,
+      "image_path": "test/new_test/11166.jpg",
+      "width": 800,
+      "height": 800
+    },
+    {
+      "image_id": 8123,
+      "image_path": "test/new_test/08123.jpg",
+      "width": 800,
+      "height": 800
+    },
+    {
+      "image_id": 11331,
+      "image_path": "test/new_test/11331.jpg",
+      "width": 800,
+      "height": 800
+    },
+    {
+      "image_id": 8714,
+      "image_path": "test/new_test/08714.jpg",
+      "width": 800,
+      "height": 800
+    },
+    {
+      "image_id": 8108,
+      "image_path": "test/new_test/08108.jpg",
+      "width": 800,
+      "height": 800
+    },
+    {
+      "image_id": 7348,
+      "image_path": "test/new_test/07348.jpg",
+      "width": 800,
+      "height": 800
+    },
+    {
+      "image_id": 6162,
+      "image_path": "test/new_test/06162.jpg",
+      "width": 800,
+      "height": 800
+    },
+    {
+      "image_id": 6884,
+      "image_path": "test/new_test/06884.jpg",
+      "width": 800,
+      "height": 800
+    },
+    {
+      "image_id": 11286,
+      "image_path": "test/new_test/11286.jpg",
+      "width": 800,
+      "height": 800
+    },
+    {
+      "image_id": 6346,
+      "image_path": "test/new_test/06346.jpg",
+      "width": 800,
+      "height": 800
+    },
+    {
+      "image_id": 10786,
+      "image_path": "test/new_test/10786.jpg",
+      "width": 800,
+      "height": 800
+    },
+    {
+      "image_id": 11322,
+      "image_path": "test/new_test/11322.jpg",
+      "width": 800,
+      "height": 800
+    },
+    {
+      "image_id": 9917,
+      "image_path": "test/new_test/09917.jpg",
+      "width": 800,
+      "height": 800
+    },
+    {
+      "image_id": 6695,
+      "image_path": "test/new_test/06695.jpg",
+      "width": 800,
+      "height": 800
+    },
+    {
+      "image_id": 6643,
+      "image_path": "test/new_test/06643.jpg",
+      "width": 800,
+      "height": 800
+    },
+    {
+      "image_id": 10360,
+      "image_path": "test/new_test/10360.jpg",
+      "width": 800,
+      "height": 800
+    },
+    {
+      "image_id": 6486,
+      "image_path": "test/new_test/06486.jpg",
+      "width": 800,
+      "height": 800
+    },
+    {
+      "image_id": 6931,
+      "image_path": "test/new_test/06931.jpg",
+      "width": 800,
+      "height": 800
+    },
+    {
+      "image_id": 8955,
+      "image_path": "test/new_test/08955.jpg",
+      "width": 800,
+      "height": 800
+    },
+    {
+      "image_id": 11613,
+      "image_path": "test/new_test/11613.jpg",
+      "width": 800,
+      "height": 800
+    },
+    {
+      "image_id": 7025,
+      "image_path": "test/new_test/07025.jpg",
+      "width": 800,
+      "height": 800
+    },
+    {
+      "image_id": 8646,
+      "image_path": "test/new_test/08646.jpg",
+      "width": 800,
+      "height": 800
+    },
+    {
+      "image_id": 10859,
+      "image_path": "test/new_test/10859.jpg",
+      "width": 800,
+      "height": 800
+    },
+    {
+      "image_id": 8681,
+      "image_path": "test/new_test/08681.jpg",
+      "width": 800,
+      "height": 800
+    },
+    {
+      "image_id": 11490,
+      "image_path": "test/new_test/11490.jpg",
+      "width": 800,
+      "height": 800
+    },
+    {
+      "image_id": 8026,
+      "image_path": "test/new_test/08026.jpg",
+      "width": 800,
+      "height": 800
+    },
+    {
+      "image_id": 7832,
+      "image_path": "test/new_test/07832.jpg",
+      "width": 800,
+      "height": 800
+    },
+    {
+      "image_id": 6463,
+      "image_path": "test/new_test/06463.jpg",
+      "width": 800,
+      "height": 800
+    },
+    {
+      "image_id": 10081,
+      "image_path": "test/new_test/10081.jpg",
+      "width": 800,
+      "height": 800
+    },
+    {
+      "image_id": 7577,
+      "image_path": "test/new_test/07577.jpg",
+      "width": 800,
+      "height": 800
+    },
+    {
+      "image_id": 8308,
+      "image_path": "test/new_test/08308.jpg",
+      "width": 800,
+      "height": 800
+    },
+    {
+      "image_id": 10323,
+      "image_path": "test/new_test/10323.jpg",
+      "width": 800,
+      "height": 800
+    },
+    {
+      "image_id": 6282,
+      "image_path": "test/new_test/06282.jpg",
+      "width": 800,
+      "height": 800
+    },
+    {
+      "image_id": 10448,
+      "image_path": "test/new_test/10448.jpg",
+      "width": 800,
+      "height": 800
+    },
+    {
+      "image_id": 9491,
+      "image_path": "test/new_test/09491.jpg",
+      "width": 800,
+      "height": 800
+    },
+    {
+      "image_id": 11274,
+      "image_path": "test/new_test/11274.jpg",
+      "width": 800,
+      "height": 800
+    },
+    {
+      "image_id": 11257,
+      "image_path": "test/new_test/11257.jpg",
+      "width": 800,
+      "height": 800
+    },
+    {
+      "image_id": 7285,
+      "image_path": "test/new_test/07285.jpg",
+      "width": 800,
+      "height": 800
+    },
+    {
+      "image_id": 11200,
+      "image_path": "test/new_test/11200.jpg",
+      "width": 800,
+      "height": 800
+    },
+    {
+      "image_id": 6330,
+      "image_path": "test/new_test/06330.jpg",
+      "width": 800,
+      "height": 800
+    },
+    {
+      "image_id": 10626,
+      "image_path": "test/new_test/10626.jpg",
+      "width": 800,
+      "height": 800
+    },
+    {
+      "image_id": 10384,
+      "image_path": "test/new_test/10384.jpg",
+      "width": 800,
+      "height": 800
+    },
+    {
+      "image_id": 8933,
+      "image_path": "test/new_test/08933.jpg",
+      "width": 800,
+      "height": 800
+    },
+    {
+      "image_id": 7385,
+      "image_path": "test/new_test/07385.jpg",
+      "width": 800,
+      "height": 800
+    },
+    {
+      "image_id": 8323,
+      "image_path": "test/new_test/08323.jpg",
+      "width": 800,
+      "height": 800
+    },
+    {
+      "image_id": 9188,
+      "image_path": "test/new_test/09188.jpg",
+      "width": 800,
+      "height": 800
+    },
+    {
+      "image_id": 6445,
+      "image_path": "test/new_test/06445.jpg",
+      "width": 800,
+      "height": 800
+    },
+    {
+      "image_id": 7554,
+      "image_path": "test/new_test/07554.jpg",
+      "width": 800,
+      "height": 800
+    },
+    {
+      "image_id": 9773,
+      "image_path": "test/new_test/09773.jpg",
+      "width": 800,
+      "height": 800
+    },
+    {
+      "image_id": 10335,
+      "image_path": "test/new_test/10335.jpg",
+      "width": 800,
+      "height": 800
+    },
+    {
+      "image_id": 7082,
+      "image_path": "test/new_test/07082.jpg",
+      "width": 800,
+      "height": 800
+    },
+    {
+      "image_id": 11689,
+      "image_path": "test/new_test/11689.jpg",
+      "width": 800,
+      "height": 800
+    },
+    {
+      "image_id": 11429,
+      "image_path": "test/new_test/11429.jpg",
+      "width": 800,
+      "height": 800
+    },
+    {
+      "image_id": 7352,
+      "image_path": "test/new_test/07352.jpg",
+      "width": 800,
+      "height": 800
+    },
+    {
+      "image_id": 6763,
+      "image_path": "test/new_test/06763.jpg",
+      "width": 800,
+      "height": 800
+    },
+    {
+      "image_id": 7323,
+      "image_path": "test/new_test/07323.jpg",
+      "width": 800,
+      "height": 800
+    },
+    {
+      "image_id": 10423,
+      "image_path": "test/new_test/10423.jpg",
+      "width": 800,
+      "height": 800
+    },
+    {
+      "image_id": 8622,
+      "image_path": "test/new_test/08622.jpg",
+      "width": 800,
+      "height": 800
+    },
+    {
+      "image_id": 10926,
+      "image_path": "test/new_test/10926.jpg",
+      "width": 800,
+      "height": 800
+    },
+    {
+      "image_id": 11319,
+      "image_path": "test/new_test/11319.jpg",
+      "width": 800,
+      "height": 800
+    },
+    {
+      "image_id": 9240,
+      "image_path": "test/new_test/09240.jpg",
+      "width": 800,
+      "height": 800
+    },
+    {
+      "image_id": 9071,
+      "image_path": "test/new_test/09071.jpg",
+      "width": 800,
+      "height": 800
+    }
+  ]
+}

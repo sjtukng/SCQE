@@ -1,0 +1,292 @@
+{
+  "policy": "Verified original sampler; one draw per class with 1/5/10 nested prefixes; no query labels.",
+  "seed": 2024,
+  "shared_usage": [
+    "internal_comparison_v2_pending",
+    "all_external_methods"
+  ],
+  "shot": 1,
+  "support": [
+    {
+      "area": 165.0,
+      "box_xyxy": [
+        0.0,
+        238.0,
+        15.0,
+        249.0
+      ],
+      "category": "Expressway-Service-area",
+      "class_id": 0,
+      "image_id": 16164,
+      "image_path": "train/new_train/16164.jpg",
+      "instance_id": 80280
+    },
+    {
+      "area": 25192.0,
+      "box_xyxy": [
+        366.0,
+        320.0,
+        554.0,
+        454.0
+      ],
+      "category": "Expressway-toll-station",
+      "class_id": 1,
+      "image_id": 15568,
+      "image_path": "train/new_train/15568.jpg",
+      "instance_id": 74319
+    },
+    {
+      "area": 5928.0,
+      "box_xyxy": [
+        633.0,
+        364.0,
+        747.0,
+        416.0
+      ],
+      "category": "airplane",
+      "class_id": 2,
+      "image_id": 17559,
+      "image_path": "train/new_train/17559.jpg",
+      "instance_id": 93333
+    },
+    {
+      "area": 194166.0,
+      "box_xyxy": [
+        190.0,
+        182.0,
+        659.0,
+        596.0
+      ],
+      "category": "airport",
+      "class_id": 3,
+      "image_id": 13548,
+      "image_path": "train/new_train/13548.jpg",
+      "instance_id": 54513
+    },
+    {
+      "area": 19312.0,
+      "box_xyxy": [
+        96.0,
+        484.0,
+        232.0,
+        626.0
+      ],
+      "category": "baseballfield",
+      "class_id": 4,
+      "image_id": 2384,
+      "image_path": "train/new_train/02384.jpg",
+      "instance_id": 12469
+    },
+    {
+      "area": 11004.0,
+      "box_xyxy": [
+        542.0,
+        239.0,
+        673.0,
+        323.0
+      ],
+      "category": "basketballcourt",
+      "class_id": 5,
+      "image_id": 14659,
+      "image_path": "train/new_train/14659.jpg",
+      "instance_id": 64983
+    },
+    {
+      "area": 1938.0,
+      "box_xyxy": [
+        13.0,
+        735.0,
+        47.0,
+        792.0
+      ],
+      "category": "bridge",
+      "class_id": 6,
+      "image_id": 22983,
+      "image_path": "train/new_train/22983.jpg",
+      "instance_id": 147901
+    },
+    {
+      "area": 22801.0,
+      "box_xyxy": [
+        364.0,
+        504.0,
+        515.0,
+        655.0
+      ],
+      "category": "chimney",
+      "class_id": 7,
+      "image_id": 16490,
+      "image_path": "train/new_train/16490.jpg",
+      "instance_id": 83334
+    },
+    {
+      "area": 1092.0,
+      "box_xyxy": [
+        502.0,
+        129.0,
+        554.0,
+        150.0
+      ],
+      "category": "dam",
+      "class_id": 8,
+      "image_id": 17894,
+      "image_path": "train/new_train/17894.jpg",
+      "instance_id": 96850
+    },
+    {
+      "area": 212505.0,
+      "box_xyxy": [
+        157.0,
+        104.0,
+        614.0,
+        569.0
+      ],
+      "category": "golffield",
+      "class_id": 9,
+      "image_id": 20690,
+      "image_path": "train/new_train/20690.jpg",
+      "instance_id": 124724
+    },
+    {
+      "area": 178920.0,
+      "box_xyxy": [
+        237.0,
+        103.0,
+        552.0,
+        671.0
+      ],
+      "category": "groundtrackfield",
+      "class_id": 10,
+      "image_id": 3026,
+      "image_path": "train/new_train/03026.jpg",
+      "instance_id": 15724
+    },
+    {
+      "area": 85008.0,
+      "box_xyxy": [
+        443.0,
+        222.0,
+        779.0,
+        475.0
+      ],
+      "category": "harbor",
+      "class_id": 11,
+      "image_id": 2471,
+      "image_path": "train/new_train/02471.jpg",
+      "instance_id": 13007
+    },
+    {
+      "area": 770.0,
+      "box_xyxy": [
+        233.0,
+        402.0,
+        255.0,
+        437.0
+      ],
+      "category": "overpass",
+      "class_id": 12,
+      "image_id": 18019,
+      "image_path": "train/new_train/18019.jpg",
+      "instance_id": 97809
+    },
+    {
+      "area": 510.0,
+      "box_xyxy": [
+        237.0,
+        187.0,
+        271.0,
+        202.0
+      ],
+      "category": "ship",
+      "class_id": 13,
+      "image_id": 23263,
+      "image_path": "train/new_train/23263.jpg",
+      "instance_id": 150547
+    },
+    {
+      "area": 70015.0,
+      "box_xyxy": [
+        302.0,
+        243.0,
+        511.0,
+        578.0
+      ],
+      "category": "stadium",
+      "class_id": 14,
+      "image_id": 23212,
+      "image_path": "train/new_train/23212.jpg",
+      "instance_id": 150132
+    },
+    {
+      "area": 728.0,
+      "box_xyxy": [
+        226.0,
+        329.0,
+        254.0,
+        355.0
+      ],
+      "category": "storagetank",
+      "class_id": 15,
+      "image_id": 15336,
+      "image_path": "train/new_train/15336.jpg",
+      "instance_id": 71535
+    },
+    {
+      "area": 165.0,
+      "box_xyxy": [
+        478.0,
+        187.0,
+        489.0,
+        202.0
+      ],
+      "category": "tenniscourt",
+      "class_id": 16,
+      "image_id": 20744,
+      "image_path": "train/new_train/20744.jpg",
+      "instance_id": 125238
+    },
+    {
+      "area": 42180.0,
+      "box_xyxy": [
+        368.0,
+        119.0,
+        463.0,
+        563.0
+      ],
+      "category": "trainstation",
+      "class_id": 17,
+      "image_id": 475,
+      "image_path": "train/new_train/00475.jpg",
+      "instance_id": 2410
+    },
+    {
+      "area": 384.0,
+      "box_xyxy": [
+        449.0,
+        530.0,
+        481.0,
+        542.0
+      ],
+      "category": "vehicle",
+      "class_id": 18,
+      "image_id": 9466,
+      "image_path": "train/new_train/09466.jpg",
+      "instance_id": 33894
+    },
+    {
+      "area": 1512.0,
+      "box_xyxy": [
+        714.0,
+        532.0,
+        770.0,
+        559.0
+      ],
+      "category": "windmill",
+      "class_id": 19,
+      "image_id": 4766,
+      "image_path": "train/new_train/04766.jpg",
+      "instance_id": 24553
+    }
+  ],
+  "version": "shared_supports_v1_20261024"
+}

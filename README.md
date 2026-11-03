@@ -7,6 +7,7 @@
 - `runs/scqe_v1/code/scripts/`：数据准备、实验、诊断和评测脚本。
 - `runs/scqe_v1/DATA_PREPARATION.md`：数据准备和历史实验记录。
 - `patches/`：本工作区 CDFSOD-benchmark 已跟踪源码的差异，供核对和复现。
+- `manifests/`：DIOR 与 DOTA-HBB 的支持、查询及 DOTA 父图和切片映射，见[清单说明](manifests/README.md)。
 
 本仓库不包含数据集、模型权重、实验输出、依赖环境或第三方完整源码。脚本是研究服务器上的实验快照，并非开箱即用的安装包：部分脚本包含该服务器的绝对路径、环境名和运行目录，需要按本地环境调整。历史报告和脚本中的运行状态仅反映记录时的状态。
 

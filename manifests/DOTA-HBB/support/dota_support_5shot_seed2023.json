@@ -1,0 +1,1882 @@
+{
+  "policy": "difficulty=0 only; full HBB inside a chip; first row-major eligible chip",
+  "seed": 2023,
+  "shot": 5,
+  "support": [
+    {
+      "box_xyxy": [
+        248.0,
+        741.0,
+        335.0,
+        839.0
+      ],
+      "chip_origin_xy": [
+        1648,
+        2472
+      ],
+      "class_id": 0,
+      "class_name": "plane",
+      "difficulty": 0,
+      "image_id": "P2558__r003_c002",
+      "image_path": "/home/root-user/projects/PF_RPN_SR/data/DOTA-v1.0/chips_1024_gap200/train/P2558__r003_c002.png",
+      "instance_id": 84616,
+      "parent_box_xyxy": [
+        1896.0,
+        3213.0,
+        1983.0,
+        3311.0
+      ],
+      "parent_id": 2558
+    },
+    {
+      "box_xyxy": [
+        757.0,
+        295.0,
+        916.0,
+        455.0
+      ],
+      "chip_origin_xy": [
+        3296,
+        1555
+      ],
+      "class_id": 0,
+      "class_name": "plane",
+      "difficulty": 0,
+      "image_id": "P1972__r002_c004",
+      "image_path": "/home/root-user/projects/PF_RPN_SR/data/DOTA-v1.0/chips_1024_gap200/train/P1972__r002_c004.png",
+      "instance_id": 69874,
+      "parent_box_xyxy": [
+        4053.0,
+        1850.0,
+        4212.0,
+        2010.0
+      ],
+      "parent_id": 1972
+    },
+    {
+      "box_xyxy": [
+        778.0,
+        871.0,
+        841.0,
+        954.0
+      ],
+      "chip_origin_xy": [
+        0,
+        0
+      ],
+      "class_id": 0,
+      "class_name": "plane",
+      "difficulty": 0,
+      "image_id": "P0171__r000_c000",
+      "image_path": "/home/root-user/projects/PF_RPN_SR/data/DOTA-v1.0/chips_1024_gap200/train/P0171__r000_c000.png",
+      "instance_id": 7048,
+      "parent_box_xyxy": [
+        778.0,
+        871.0,
+        841.0,
+        954.0
+      ],
+      "parent_id": 171
+    },
+    {
+      "box_xyxy": [
+        715.0,
+        582.0,
+        812.0,
+        657.0
+      ],
+      "chip_origin_xy": [
+        0,
+        0
+      ],
+      "class_id": 0,
+      "class_name": "plane",
+      "difficulty": 0,
+      "image_id": "P1867__r000_c000",
+      "image_path": "/home/root-user/projects/PF_RPN_SR/data/DOTA-v1.0/chips_1024_gap200/train/P1867__r000_c000.png",
+      "instance_id": 62904,
+      "parent_box_xyxy": [
+        715.0,
+        582.0,
+        812.0,
+        657.0
+      ],
+      "parent_id": 1867
+    },
+    {
+      "box_xyxy": [
+        559.0,
+        143.0,
+        640.0,
+        227.0
+      ],
+      "chip_origin_xy": [
+        1648,
+        1648
+      ],
+      "class_id": 0,
+      "class_name": "plane",
+      "difficulty": 0,
+      "image_id": "P2211__r002_c002",
+      "image_path": "/home/root-user/projects/PF_RPN_SR/data/DOTA-v1.0/chips_1024_gap200/train/P2211__r002_c002.png",
+      "instance_id": 81546,
+      "parent_box_xyxy": [
+        2207.0,
+        1791.0,
+        2288.0,
+        1875.0
+      ],
+      "parent_id": 2211
+    },
+    {
+      "box_xyxy": [
+        404.0,
+        381.0,
+        470.0,
+        417.0
+      ],
+      "chip_origin_xy": [
+        724,
+        0
+      ],
+      "class_id": 1,
+      "class_name": "ship",
+      "difficulty": 0,
+      "image_id": "P2706__r000_c001",
+      "image_path": "/home/root-user/projects/PF_RPN_SR/data/DOTA-v1.0/chips_1024_gap200/train/P2706__r000_c001.png",
+      "instance_id": 93078,
+      "parent_box_xyxy": [
+        1128.0,
+        381.0,
+        1194.0,
+        417.0
+      ],
+      "parent_id": 2706
+    },
+    {
+      "box_xyxy": [
+        458.0,
+        300.0,
+        497.0,
+        332.0
+      ],
+      "chip_origin_xy": [
+        0,
+        730
+      ],
+      "class_id": 1,
+      "class_name": "ship",
+      "difficulty": 0,
+      "image_id": "P0915__r001_c000",
+      "image_path": "/home/root-user/projects/PF_RPN_SR/data/DOTA-v1.0/chips_1024_gap200/train/P0915__r001_c000.png",
+      "instance_id": 33406,
+      "parent_box_xyxy": [
+        458.0,
+        1030.0,
+        497.0,
+        1062.0
+      ],
+      "parent_id": 915
+    },
+    {
+      "box_xyxy": [
+        169.0,
+        385.0,
+        218.0,
+        401.0
+      ],
+      "chip_origin_xy": [
+        824,
+        1648
+      ],
+      "class_id": 1,
+      "class_name": "ship",
+      "difficulty": 0,
+      "image_id": "P0861__r002_c001",
+      "image_path": "/home/root-user/projects/PF_RPN_SR/data/DOTA-v1.0/chips_1024_gap200/train/P0861__r002_c001.png",
+      "instance_id": 25287,
+      "parent_box_xyxy": [
+        993.0,
+        2033.0,
+        1042.0,
+        2049.0
+      ],
+      "parent_id": 861
+    },
+    {
+      "box_xyxy": [
+        662.0,
+        256.0,
+        701.0,
+        299.0
+      ],
+      "chip_origin_xy": [
+        824,
+        1648
+      ],
+      "class_id": 1,
+      "class_name": "ship",
+      "difficulty": 0,
+      "image_id": "P1388__r002_c001",
+      "image_path": "/home/root-user/projects/PF_RPN_SR/data/DOTA-v1.0/chips_1024_gap200/train/P1388__r002_c001.png",
+      "instance_id": 45094,
+      "parent_box_xyxy": [
+        1486.0,
+        1904.0,
+        1525.0,
+        1947.0
+      ],
+      "parent_id": 1388
+    },
+    {
+      "box_xyxy": [
+        641.0,
+        776.0,
+        679.0,
+        869.0
+      ],
+      "chip_origin_xy": [
+        824,
+        824
+      ],
+      "class_id": 1,
+      "class_name": "ship",
+      "difficulty": 0,
+      "image_id": "P2676__r001_c001",
+      "image_path": "/home/root-user/projects/PF_RPN_SR/data/DOTA-v1.0/chips_1024_gap200/train/P2676__r001_c001.png",
+      "instance_id": 89912,
+      "parent_box_xyxy": [
+        1465.0,
+        1600.0,
+        1503.0,
+        1693.0
+      ],
+      "parent_id": 2676
+    },
+    {
+      "box_xyxy": [
+        938.0,
+        620.0,
+        968.0,
+        651.0
+      ],
+      "chip_origin_xy": [
+        1648,
+        0
+      ],
+      "class_id": 2,
+      "class_name": "storage-tank",
+      "difficulty": 0,
+      "image_id": "P2753__r000_c002",
+      "image_path": "/home/root-user/projects/PF_RPN_SR/data/DOTA-v1.0/chips_1024_gap200/train/P2753__r000_c002.png",
+      "instance_id": 96370,
+      "parent_box_xyxy": [
+        2586.0,
+        620.0,
+        2616.0,
+        651.0
+      ],
+      "parent_id": 2753
+    },
+    {
+      "box_xyxy": [
+        531.0,
+        957.0,
+        564.0,
+        991.0
+      ],
+      "chip_origin_xy": [
+        824,
+        2472
+      ],
+      "class_id": 2,
+      "class_name": "storage-tank",
+      "difficulty": 0,
+      "image_id": "P2750__r003_c001",
+      "image_path": "/home/root-user/projects/PF_RPN_SR/data/DOTA-v1.0/chips_1024_gap200/train/P2750__r003_c001.png",
+      "instance_id": 95801,
+      "parent_box_xyxy": [
+        1355.0,
+        3429.0,
+        1388.0,
+        3463.0
+      ],
+      "parent_id": 2750
+    },
+    {
+      "box_xyxy": [
+        1003.0,
+        674.0,
+        1019.0,
+        691.0
+      ],
+      "chip_origin_xy": [
+        0,
+        0
+      ],
+      "class_id": 2,
+      "class_name": "storage-tank",
+      "difficulty": 0,
+      "image_id": "P2702__r000_c000",
+      "image_path": "/home/root-user/projects/PF_RPN_SR/data/DOTA-v1.0/chips_1024_gap200/train/P2702__r000_c000.png",
+      "instance_id": 92747,
+      "parent_box_xyxy": [
+        1003.0,
+        674.0,
+        1019.0,
+        691.0
+      ],
+      "parent_id": 2702
+    },
+    {
+      "box_xyxy": [
+        152.0,
+        383.0,
+        232.0,
+        461.0
+      ],
+      "chip_origin_xy": [
+        0,
+        824
+      ],
+      "class_id": 2,
+      "class_name": "storage-tank",
+      "difficulty": 0,
+      "image_id": "P2729__r001_c000",
+      "image_path": "/home/root-user/projects/PF_RPN_SR/data/DOTA-v1.0/chips_1024_gap200/train/P2729__r001_c000.png",
+      "instance_id": 93963,
+      "parent_box_xyxy": [
+        152.0,
+        1207.0,
+        232.0,
+        1285.0
+      ],
+      "parent_id": 2729
+    },
+    {
+      "box_xyxy": [
+        741.0,
+        670.0,
+        771.0,
+        700.0
+      ],
+      "chip_origin_xy": [
+        0,
+        824
+      ],
+      "class_id": 2,
+      "class_name": "storage-tank",
+      "difficulty": 0,
+      "image_id": "P2702__r001_c000",
+      "image_path": "/home/root-user/projects/PF_RPN_SR/data/DOTA-v1.0/chips_1024_gap200/train/P2702__r001_c000.png",
+      "instance_id": 92626,
+      "parent_box_xyxy": [
+        741.0,
+        1494.0,
+        771.0,
+        1524.0
+      ],
+      "parent_id": 2702
+    },
+    {
+      "box_xyxy": [
+        604.0,
+        656.0,
+        729.0,
+        783.0
+      ],
+      "chip_origin_xy": [
+        306,
+        0
+      ],
+      "class_id": 3,
+      "class_name": "baseball-diamond",
+      "difficulty": 0,
+      "image_id": "P1876__r000_c001",
+      "image_path": "/home/root-user/projects/PF_RPN_SR/data/DOTA-v1.0/chips_1024_gap200/train/P1876__r000_c001.png",
+      "instance_id": 63701,
+      "parent_box_xyxy": [
+        910.0,
+        656.0,
+        1035.0,
+        783.0
+      ],
+      "parent_id": 1876
+    },
+    {
+      "box_xyxy": [
+        157.0,
+        746.0,
+        409.0,
+        1008.0
+      ],
+      "chip_origin_xy": [
+        0,
+        0
+      ],
+      "class_id": 3,
+      "class_name": "baseball-diamond",
+      "difficulty": 0,
+      "image_id": "P0091__r000_c000",
+      "image_path": "/home/root-user/projects/PF_RPN_SR/data/DOTA-v1.0/chips_1024_gap200/train/P0091__r000_c000.png",
+      "instance_id": 4825,
+      "parent_box_xyxy": [
+        157.0,
+        746.0,
+        409.0,
+        1008.0
+      ],
+      "parent_id": 91
+    },
+    {
+      "box_xyxy": [
+        497.0,
+        689.0,
+        582.0,
+        771.0
+      ],
+      "chip_origin_xy": [
+        489,
+        571
+      ],
+      "class_id": 3,
+      "class_name": "baseball-diamond",
+      "difficulty": 0,
+      "image_id": "P2160__r001_c001",
+      "image_path": "/home/root-user/projects/PF_RPN_SR/data/DOTA-v1.0/chips_1024_gap200/train/P2160__r001_c001.png",
+      "instance_id": 80799,
+      "parent_box_xyxy": [
+        986.0,
+        1260.0,
+        1071.0,
+        1342.0
+      ],
+      "parent_id": 2160
+    },
+    {
+      "box_xyxy": [
+        572.0,
+        613.0,
+        624.0,
+        674.0
+      ],
+      "chip_origin_xy": [
+        0,
+        1648
+      ],
+      "class_id": 3,
+      "class_name": "baseball-diamond",
+      "difficulty": 0,
+      "image_id": "P1727__r002_c000",
+      "image_path": "/home/root-user/projects/PF_RPN_SR/data/DOTA-v1.0/chips_1024_gap200/train/P1727__r002_c000.png",
+      "instance_id": 55624,
+      "parent_box_xyxy": [
+        572.0,
+        2261.0,
+        624.0,
+        2322.0
+      ],
+      "parent_id": 1727
+    },
+    {
+      "box_xyxy": [
+        226.0,
+        489.0,
+        319.0,
+        580.0
+      ],
+      "chip_origin_xy": [
+        1648,
+        2976
+      ],
+      "class_id": 3,
+      "class_name": "baseball-diamond",
+      "difficulty": 0,
+      "image_id": "P1636__r004_c002",
+      "image_path": "/home/root-user/projects/PF_RPN_SR/data/DOTA-v1.0/chips_1024_gap200/train/P1636__r004_c002.png",
+      "instance_id": 55070,
+      "parent_box_xyxy": [
+        1874.0,
+        3465.0,
+        1967.0,
+        3556.0
+      ],
+      "parent_id": 1636
+    },
+    {
+      "box_xyxy": [
+        237.0,
+        449.0,
+        423.0,
+        664.0
+      ],
+      "chip_origin_xy": [
+        0,
+        0
+      ],
+      "class_id": 4,
+      "class_name": "tennis-court",
+      "difficulty": 0,
+      "image_id": "P0400__r000_c000",
+      "image_path": "/home/root-user/projects/PF_RPN_SR/data/DOTA-v1.0/chips_1024_gap200/train/P0400__r000_c000.png",
+      "instance_id": 11560,
+      "parent_box_xyxy": [
+        237.0,
+        449.0,
+        423.0,
+        664.0
+      ],
+      "parent_id": 400
+    },
+    {
+      "box_xyxy": [
+        224.0,
+        227.0,
+        268.0,
+        313.0
+      ],
+      "chip_origin_xy": [
+        0,
+        0
+      ],
+      "class_id": 4,
+      "class_name": "tennis-court",
+      "difficulty": 0,
+      "image_id": "P2203__r000_c000",
+      "image_path": "/home/root-user/projects/PF_RPN_SR/data/DOTA-v1.0/chips_1024_gap200/train/P2203__r000_c000.png",
+      "instance_id": 81216,
+      "parent_box_xyxy": [
+        224.0,
+        227.0,
+        268.0,
+        313.0
+      ],
+      "parent_id": 2203
+    },
+    {
+      "box_xyxy": [
+        595.0,
+        641.0,
+        706.0,
+        844.0
+      ],
+      "chip_origin_xy": [
+        0,
+        0
+      ],
+      "class_id": 4,
+      "class_name": "tennis-court",
+      "difficulty": 0,
+      "image_id": "P0358__r000_c000",
+      "image_path": "/home/root-user/projects/PF_RPN_SR/data/DOTA-v1.0/chips_1024_gap200/train/P0358__r000_c000.png",
+      "instance_id": 10940,
+      "parent_box_xyxy": [
+        595.0,
+        641.0,
+        706.0,
+        844.0
+      ],
+      "parent_id": 358
+    },
+    {
+      "box_xyxy": [
+        126.0,
+        682.0,
+        323.0,
+        839.0
+      ],
+      "chip_origin_xy": [
+        0,
+        0
+      ],
+      "class_id": 4,
+      "class_name": "tennis-court",
+      "difficulty": 0,
+      "image_id": "P0388__r000_c000",
+      "image_path": "/home/root-user/projects/PF_RPN_SR/data/DOTA-v1.0/chips_1024_gap200/train/P0388__r000_c000.png",
+      "instance_id": 11473,
+      "parent_box_xyxy": [
+        126.0,
+        682.0,
+        323.0,
+        839.0
+      ],
+      "parent_id": 388
+    },
+    {
+      "box_xyxy": [
+        517.0,
+        565.0,
+        700.0,
+        789.0
+      ],
+      "chip_origin_xy": [
+        2472,
+        2472
+      ],
+      "class_id": 4,
+      "class_name": "tennis-court",
+      "difficulty": 0,
+      "image_id": "P1780__r003_c003",
+      "image_path": "/home/root-user/projects/PF_RPN_SR/data/DOTA-v1.0/chips_1024_gap200/train/P1780__r003_c003.png",
+      "instance_id": 56800,
+      "parent_box_xyxy": [
+        2989.0,
+        3037.0,
+        3172.0,
+        3261.0
+      ],
+      "parent_id": 1780
+    },
+    {
+      "box_xyxy": [
+        416.0,
+        12.0,
+        538.0,
+        221.0
+      ],
+      "chip_origin_xy": [
+        2472,
+        1648
+      ],
+      "class_id": 5,
+      "class_name": "basketball-court",
+      "difficulty": 0,
+      "image_id": "P1445__r002_c003",
+      "image_path": "/home/root-user/projects/PF_RPN_SR/data/DOTA-v1.0/chips_1024_gap200/train/P1445__r002_c003.png",
+      "instance_id": 51137,
+      "parent_box_xyxy": [
+        2888.0,
+        1660.0,
+        3010.0,
+        1869.0
+      ],
+      "parent_id": 1445
+    },
+    {
+      "box_xyxy": [
+        414.0,
+        605.0,
+        538.0,
+        813.0
+      ],
+      "chip_origin_xy": [
+        2472,
+        824
+      ],
+      "class_id": 5,
+      "class_name": "basketball-court",
+      "difficulty": 0,
+      "image_id": "P1445__r001_c003",
+      "image_path": "/home/root-user/projects/PF_RPN_SR/data/DOTA-v1.0/chips_1024_gap200/train/P1445__r001_c003.png",
+      "instance_id": 51105,
+      "parent_box_xyxy": [
+        2886.0,
+        1429.0,
+        3010.0,
+        1637.0
+      ],
+      "parent_id": 1445
+    },
+    {
+      "box_xyxy": [
+        634.0,
+        663.0,
+        752.0,
+        884.0
+      ],
+      "chip_origin_xy": [
+        1648,
+        1648
+      ],
+      "class_id": 5,
+      "class_name": "basketball-court",
+      "difficulty": 0,
+      "image_id": "P1470__r002_c002",
+      "image_path": "/home/root-user/projects/PF_RPN_SR/data/DOTA-v1.0/chips_1024_gap200/train/P1470__r002_c002.png",
+      "instance_id": 54210,
+      "parent_box_xyxy": [
+        2282.0,
+        2311.0,
+        2400.0,
+        2532.0
+      ],
+      "parent_id": 1470
+    },
+    {
+      "box_xyxy": [
+        137.0,
+        556.0,
+        336.0,
+        712.0
+      ],
+      "chip_origin_xy": [
+        824,
+        424
+      ],
+      "class_id": 5,
+      "class_name": "basketball-court",
+      "difficulty": 0,
+      "image_id": "P0856__r001_c001",
+      "image_path": "/home/root-user/projects/PF_RPN_SR/data/DOTA-v1.0/chips_1024_gap200/train/P0856__r001_c001.png",
+      "instance_id": 24179,
+      "parent_box_xyxy": [
+        961.0,
+        980.0,
+        1160.0,
+        1136.0
+      ],
+      "parent_id": 856
+    },
+    {
+      "box_xyxy": [
+        625.0,
+        359.0,
+        712.0,
+        436.0
+      ],
+      "chip_origin_xy": [
+        0,
+        0
+      ],
+      "class_id": 5,
+      "class_name": "basketball-court",
+      "difficulty": 0,
+      "image_id": "P0147__r000_c000",
+      "image_path": "/home/root-user/projects/PF_RPN_SR/data/DOTA-v1.0/chips_1024_gap200/train/P0147__r000_c000.png",
+      "instance_id": 5865,
+      "parent_box_xyxy": [
+        625.0,
+        359.0,
+        712.0,
+        436.0
+      ],
+      "parent_id": 147
+    },
+    {
+      "box_xyxy": [
+        322.0,
+        253.0,
+        342.0,
+        292.0
+      ],
+      "chip_origin_xy": [
+        2472,
+        1648
+      ],
+      "class_id": 6,
+      "class_name": "ground-track-field",
+      "difficulty": 0,
+      "image_id": "P2725__r002_c003",
+      "image_path": "/home/root-user/projects/PF_RPN_SR/data/DOTA-v1.0/chips_1024_gap200/train/P2725__r002_c003.png",
+      "instance_id": 93487,
+      "parent_box_xyxy": [
+        2794.0,
+        1901.0,
+        2814.0,
+        1940.0
+      ],
+      "parent_id": 2725
+    },
+    {
+      "box_xyxy": [
+        493.0,
+        68.0,
+        802.0,
+        206.0
+      ],
+      "chip_origin_xy": [
+        0,
+        3296
+      ],
+      "class_id": 6,
+      "class_name": "ground-track-field",
+      "difficulty": 0,
+      "image_id": "P1464__r004_c000",
+      "image_path": "/home/root-user/projects/PF_RPN_SR/data/DOTA-v1.0/chips_1024_gap200/train/P1464__r004_c000.png",
+      "instance_id": 53152,
+      "parent_box_xyxy": [
+        493.0,
+        3364.0,
+        802.0,
+        3502.0
+      ],
+      "parent_id": 1464
+    },
+    {
+      "box_xyxy": [
+        553.0,
+        732.0,
+        737.0,
+        920.0
+      ],
+      "chip_origin_xy": [
+        824,
+        0
+      ],
+      "class_id": 6,
+      "class_name": "ground-track-field",
+      "difficulty": 0,
+      "image_id": "P2512__r000_c001",
+      "image_path": "/home/root-user/projects/PF_RPN_SR/data/DOTA-v1.0/chips_1024_gap200/train/P2512__r000_c001.png",
+      "instance_id": 84204,
+      "parent_box_xyxy": [
+        1377.0,
+        732.0,
+        1561.0,
+        920.0
+      ],
+      "parent_id": 2512
+    },
+    {
+      "box_xyxy": [
+        403.0,
+        443.0,
+        525.0,
+        656.0
+      ],
+      "chip_origin_xy": [
+        2472,
+        2472
+      ],
+      "class_id": 6,
+      "class_name": "ground-track-field",
+      "difficulty": 0,
+      "image_id": "P1615__r003_c003",
+      "image_path": "/home/root-user/projects/PF_RPN_SR/data/DOTA-v1.0/chips_1024_gap200/train/P1615__r003_c003.png",
+      "instance_id": 54980,
+      "parent_box_xyxy": [
+        2875.0,
+        2915.0,
+        2997.0,
+        3128.0
+      ],
+      "parent_id": 1615
+    },
+    {
+      "box_xyxy": [
+        607.0,
+        5.0,
+        797.0,
+        241.0
+      ],
+      "chip_origin_xy": [
+        2472,
+        0
+      ],
+      "class_id": 6,
+      "class_name": "ground-track-field",
+      "difficulty": 0,
+      "image_id": "P1340__r000_c003",
+      "image_path": "/home/root-user/projects/PF_RPN_SR/data/DOTA-v1.0/chips_1024_gap200/train/P1340__r000_c003.png",
+      "instance_id": 41137,
+      "parent_box_xyxy": [
+        3079.0,
+        5.0,
+        3269.0,
+        241.0
+      ],
+      "parent_id": 1340
+    },
+    {
+      "box_xyxy": [
+        411.0,
+        83.0,
+        794.0,
+        284.0
+      ],
+      "chip_origin_xy": [
+        0,
+        1648
+      ],
+      "class_id": 7,
+      "class_name": "harbor",
+      "difficulty": 0,
+      "image_id": "P2026__r002_c000",
+      "image_path": "/home/root-user/projects/PF_RPN_SR/data/DOTA-v1.0/chips_1024_gap200/train/P2026__r002_c000.png",
+      "instance_id": 74991,
+      "parent_box_xyxy": [
+        411.0,
+        1731.0,
+        794.0,
+        1932.0
+      ],
+      "parent_id": 2026
+    },
+    {
+      "box_xyxy": [
+        613.0,
+        412.0,
+        669.0,
+        463.0
+      ],
+      "chip_origin_xy": [
+        2472,
+        824
+      ],
+      "class_id": 7,
+      "class_name": "harbor",
+      "difficulty": 0,
+      "image_id": "P1059__r001_c003",
+      "image_path": "/home/root-user/projects/PF_RPN_SR/data/DOTA-v1.0/chips_1024_gap200/train/P1059__r001_c003.png",
+      "instance_id": 36471,
+      "parent_box_xyxy": [
+        3085.0,
+        1236.0,
+        3141.0,
+        1287.0
+      ],
+      "parent_id": 1059
+    },
+    {
+      "box_xyxy": [
+        795.0,
+        200.0,
+        938.0,
+        359.0
+      ],
+      "chip_origin_xy": [
+        2472,
+        0
+      ],
+      "class_id": 7,
+      "class_name": "harbor",
+      "difficulty": 0,
+      "image_id": "P1057__r000_c003",
+      "image_path": "/home/root-user/projects/PF_RPN_SR/data/DOTA-v1.0/chips_1024_gap200/train/P1057__r000_c003.png",
+      "instance_id": 36302,
+      "parent_box_xyxy": [
+        3267.0,
+        200.0,
+        3410.0,
+        359.0
+      ],
+      "parent_id": 1057
+    },
+    {
+      "box_xyxy": [
+        972.0,
+        528.0,
+        997.0,
+        547.0
+      ],
+      "chip_origin_xy": [
+        0,
+        0
+      ],
+      "class_id": 7,
+      "class_name": "harbor",
+      "difficulty": 0,
+      "image_id": "P2693__r000_c000",
+      "image_path": "/home/root-user/projects/PF_RPN_SR/data/DOTA-v1.0/chips_1024_gap200/train/P2693__r000_c000.png",
+      "instance_id": 91860,
+      "parent_box_xyxy": [
+        972.0,
+        528.0,
+        997.0,
+        547.0
+      ],
+      "parent_id": 2693
+    },
+    {
+      "box_xyxy": [
+        367.0,
+        444.0,
+        400.0,
+        472.0
+      ],
+      "chip_origin_xy": [
+        3183,
+        824
+      ],
+      "class_id": 7,
+      "class_name": "harbor",
+      "difficulty": 0,
+      "image_id": "P1019__r001_c004",
+      "image_path": "/home/root-user/projects/PF_RPN_SR/data/DOTA-v1.0/chips_1024_gap200/train/P1019__r001_c004.png",
+      "instance_id": 35607,
+      "parent_box_xyxy": [
+        3550.0,
+        1268.0,
+        3583.0,
+        1296.0
+      ],
+      "parent_id": 1019
+    },
+    {
+      "box_xyxy": [
+        876.0,
+        942.0,
+        891.0,
+        952.0
+      ],
+      "chip_origin_xy": [
+        1648,
+        0
+      ],
+      "class_id": 8,
+      "class_name": "bridge",
+      "difficulty": 0,
+      "image_id": "P2725__r000_c002",
+      "image_path": "/home/root-user/projects/PF_RPN_SR/data/DOTA-v1.0/chips_1024_gap200/train/P2725__r000_c002.png",
+      "instance_id": 93540,
+      "parent_box_xyxy": [
+        2524.0,
+        942.0,
+        2539.0,
+        952.0
+      ],
+      "parent_id": 2725
+    },
+    {
+      "box_xyxy": [
+        194.0,
+        609.0,
+        567.0,
+        652.0
+      ],
+      "chip_origin_xy": [
+        2976,
+        1648
+      ],
+      "class_id": 8,
+      "class_name": "bridge",
+      "difficulty": 0,
+      "image_id": "P1281__r002_c004",
+      "image_path": "/home/root-user/projects/PF_RPN_SR/data/DOTA-v1.0/chips_1024_gap200/train/P1281__r002_c004.png",
+      "instance_id": 40426,
+      "parent_box_xyxy": [
+        3170.0,
+        2257.0,
+        3543.0,
+        2300.0
+      ],
+      "parent_id": 1281
+    },
+    {
+      "box_xyxy": [
+        267.0,
+        891.0,
+        394.0,
+        966.0
+      ],
+      "chip_origin_xy": [
+        1648,
+        2976
+      ],
+      "class_id": 8,
+      "class_name": "bridge",
+      "difficulty": 0,
+      "image_id": "P1340__r004_c002",
+      "image_path": "/home/root-user/projects/PF_RPN_SR/data/DOTA-v1.0/chips_1024_gap200/train/P1340__r004_c002.png",
+      "instance_id": 41144,
+      "parent_box_xyxy": [
+        1915.0,
+        3867.0,
+        2042.0,
+        3942.0
+      ],
+      "parent_id": 1340
+    },
+    {
+      "box_xyxy": [
+        369.0,
+        282.0,
+        578.0,
+        341.0
+      ],
+      "chip_origin_xy": [
+        2472,
+        0
+      ],
+      "class_id": 8,
+      "class_name": "bridge",
+      "difficulty": 0,
+      "image_id": "P1748__r000_c003",
+      "image_path": "/home/root-user/projects/PF_RPN_SR/data/DOTA-v1.0/chips_1024_gap200/train/P1748__r000_c003.png",
+      "instance_id": 55913,
+      "parent_box_xyxy": [
+        2841.0,
+        282.0,
+        3050.0,
+        341.0
+      ],
+      "parent_id": 1748
+    },
+    {
+      "box_xyxy": [
+        555.0,
+        946.0,
+        596.0,
+        969.0
+      ],
+      "chip_origin_xy": [
+        2976,
+        2472
+      ],
+      "class_id": 8,
+      "class_name": "bridge",
+      "difficulty": 0,
+      "image_id": "P1338__r003_c004",
+      "image_path": "/home/root-user/projects/PF_RPN_SR/data/DOTA-v1.0/chips_1024_gap200/train/P1338__r003_c004.png",
+      "instance_id": 41073,
+      "parent_box_xyxy": [
+        3531.0,
+        3418.0,
+        3572.0,
+        3441.0
+      ],
+      "parent_id": 1338
+    },
+    {
+      "box_xyxy": [
+        759.0,
+        416.0,
+        843.0,
+        440.0
+      ],
+      "chip_origin_xy": [
+        0,
+        0
+      ],
+      "class_id": 9,
+      "class_name": "large-vehicle",
+      "difficulty": 0,
+      "image_id": "P0445__r000_c000",
+      "image_path": "/home/root-user/projects/PF_RPN_SR/data/DOTA-v1.0/chips_1024_gap200/train/P0445__r000_c000.png",
+      "instance_id": 12212,
+      "parent_box_xyxy": [
+        759.0,
+        416.0,
+        843.0,
+        440.0
+      ],
+      "parent_id": 445
+    },
+    {
+      "box_xyxy": [
+        667.0,
+        359.0,
+        693.0,
+        393.0
+      ],
+      "chip_origin_xy": [
+        1648,
+        824
+      ],
+      "class_id": 9,
+      "class_name": "large-vehicle",
+      "difficulty": 0,
+      "image_id": "P2014__r001_c002",
+      "image_path": "/home/root-user/projects/PF_RPN_SR/data/DOTA-v1.0/chips_1024_gap200/train/P2014__r001_c002.png",
+      "instance_id": 73690,
+      "parent_box_xyxy": [
+        2315.0,
+        1183.0,
+        2341.0,
+        1217.0
+      ],
+      "parent_id": 2014
+    },
+    {
+      "box_xyxy": [
+        688.0,
+        61.0,
+        734.0,
+        75.0
+      ],
+      "chip_origin_xy": [
+        0,
+        0
+      ],
+      "class_id": 9,
+      "class_name": "large-vehicle",
+      "difficulty": 0,
+      "image_id": "P1896__r000_c000",
+      "image_path": "/home/root-user/projects/PF_RPN_SR/data/DOTA-v1.0/chips_1024_gap200/train/P1896__r000_c000.png",
+      "instance_id": 64466,
+      "parent_box_xyxy": [
+        688.0,
+        61.0,
+        734.0,
+        75.0
+      ],
+      "parent_id": 1896
+    },
+    {
+      "box_xyxy": [
+        395.0,
+        603.0,
+        461.0,
+        627.0
+      ],
+      "chip_origin_xy": [
+        0,
+        0
+      ],
+      "class_id": 9,
+      "class_name": "large-vehicle",
+      "difficulty": 0,
+      "image_id": "P1994__r000_c000",
+      "image_path": "/home/root-user/projects/PF_RPN_SR/data/DOTA-v1.0/chips_1024_gap200/train/P1994__r000_c000.png",
+      "instance_id": 70896,
+      "parent_box_xyxy": [
+        395.0,
+        603.0,
+        461.0,
+        627.0
+      ],
+      "parent_id": 1994
+    },
+    {
+      "box_xyxy": [
+        192.0,
+        246.0,
+        285.0,
+        331.0
+      ],
+      "chip_origin_xy": [
+        1648,
+        824
+      ],
+      "class_id": 9,
+      "class_name": "large-vehicle",
+      "difficulty": 0,
+      "image_id": "P1849__r001_c002",
+      "image_path": "/home/root-user/projects/PF_RPN_SR/data/DOTA-v1.0/chips_1024_gap200/train/P1849__r001_c002.png",
+      "instance_id": 60976,
+      "parent_box_xyxy": [
+        1840.0,
+        1070.0,
+        1933.0,
+        1155.0
+      ],
+      "parent_id": 1849
+    },
+    {
+      "box_xyxy": [
+        297.0,
+        319.0,
+        313.0,
+        346.0
+      ],
+      "chip_origin_xy": [
+        0,
+        824
+      ],
+      "class_id": 10,
+      "class_name": "small-vehicle",
+      "difficulty": 0,
+      "image_id": "P2014__r001_c000",
+      "image_path": "/home/root-user/projects/PF_RPN_SR/data/DOTA-v1.0/chips_1024_gap200/train/P2014__r001_c000.png",
+      "instance_id": 73822,
+      "parent_box_xyxy": [
+        297.0,
+        1143.0,
+        313.0,
+        1170.0
+      ],
+      "parent_id": 2014
+    },
+    {
+      "box_xyxy": [
+        892.0,
+        853.0,
+        933.0,
+        874.0
+      ],
+      "chip_origin_xy": [
+        0,
+        0
+      ],
+      "class_id": 10,
+      "class_name": "small-vehicle",
+      "difficulty": 0,
+      "image_id": "P2629__r000_c000",
+      "image_path": "/home/root-user/projects/PF_RPN_SR/data/DOTA-v1.0/chips_1024_gap200/train/P2629__r000_c000.png",
+      "instance_id": 87177,
+      "parent_box_xyxy": [
+        892.0,
+        853.0,
+        933.0,
+        874.0
+      ],
+      "parent_id": 2629
+    },
+    {
+      "box_xyxy": [
+        350.0,
+        934.0,
+        368.0,
+        973.0
+      ],
+      "chip_origin_xy": [
+        0,
+        0
+      ],
+      "class_id": 10,
+      "class_name": "small-vehicle",
+      "difficulty": 0,
+      "image_id": "P2019__r000_c000",
+      "image_path": "/home/root-user/projects/PF_RPN_SR/data/DOTA-v1.0/chips_1024_gap200/train/P2019__r000_c000.png",
+      "instance_id": 74531,
+      "parent_box_xyxy": [
+        350.0,
+        934.0,
+        368.0,
+        973.0
+      ],
+      "parent_id": 2019
+    },
+    {
+      "box_xyxy": [
+        819.0,
+        681.0,
+        839.0,
+        722.0
+      ],
+      "chip_origin_xy": [
+        0,
+        0
+      ],
+      "class_id": 10,
+      "class_name": "small-vehicle",
+      "difficulty": 0,
+      "image_id": "P0030__r000_c000",
+      "image_path": "/home/root-user/projects/PF_RPN_SR/data/DOTA-v1.0/chips_1024_gap200/train/P0030__r000_c000.png",
+      "instance_id": 1840,
+      "parent_box_xyxy": [
+        819.0,
+        681.0,
+        839.0,
+        722.0
+      ],
+      "parent_id": 30
+    },
+    {
+      "box_xyxy": [
+        901.0,
+        517.0,
+        931.0,
+        556.0
+      ],
+      "chip_origin_xy": [
+        0,
+        0
+      ],
+      "class_id": 10,
+      "class_name": "small-vehicle",
+      "difficulty": 0,
+      "image_id": "P2074__r000_c000",
+      "image_path": "/home/root-user/projects/PF_RPN_SR/data/DOTA-v1.0/chips_1024_gap200/train/P2074__r000_c000.png",
+      "instance_id": 77788,
+      "parent_box_xyxy": [
+        901.0,
+        517.0,
+        931.0,
+        556.0
+      ],
+      "parent_id": 2074
+    },
+    {
+      "box_xyxy": [
+        734.0,
+        667.0,
+        768.0,
+        770.0
+      ],
+      "chip_origin_xy": [
+        2472,
+        1648
+      ],
+      "class_id": 11,
+      "class_name": "helicopter",
+      "difficulty": 0,
+      "image_id": "P1393__r002_c003",
+      "image_path": "/home/root-user/projects/PF_RPN_SR/data/DOTA-v1.0/chips_1024_gap200/train/P1393__r002_c003.png",
+      "instance_id": 47485,
+      "parent_box_xyxy": [
+        3206.0,
+        2315.0,
+        3240.0,
+        2418.0
+      ],
+      "parent_id": 1393
+    },
+    {
+      "box_xyxy": [
+        482.0,
+        583.0,
+        506.0,
+        647.0
+      ],
+      "chip_origin_xy": [
+        2472,
+        0
+      ],
+      "class_id": 11,
+      "class_name": "helicopter",
+      "difficulty": 0,
+      "image_id": "P1392__r000_c003",
+      "image_path": "/home/root-user/projects/PF_RPN_SR/data/DOTA-v1.0/chips_1024_gap200/train/P1392__r000_c003.png",
+      "instance_id": 46630,
+      "parent_box_xyxy": [
+        2954.0,
+        583.0,
+        2978.0,
+        647.0
+      ],
+      "parent_id": 1392
+    },
+    {
+      "box_xyxy": [
+        672.0,
+        732.0,
+        698.0,
+        794.0
+      ],
+      "chip_origin_xy": [
+        2472,
+        0
+      ],
+      "class_id": 11,
+      "class_name": "helicopter",
+      "difficulty": 0,
+      "image_id": "P1392__r000_c003",
+      "image_path": "/home/root-user/projects/PF_RPN_SR/data/DOTA-v1.0/chips_1024_gap200/train/P1392__r000_c003.png",
+      "instance_id": 47226,
+      "parent_box_xyxy": [
+        3144.0,
+        732.0,
+        3170.0,
+        794.0
+      ],
+      "parent_id": 1392
+    },
+    {
+      "box_xyxy": [
+        197.0,
+        684.0,
+        230.0,
+        787.0
+      ],
+      "chip_origin_xy": [
+        3296,
+        1648
+      ],
+      "class_id": 11,
+      "class_name": "helicopter",
+      "difficulty": 0,
+      "image_id": "P1393__r002_c004",
+      "image_path": "/home/root-user/projects/PF_RPN_SR/data/DOTA-v1.0/chips_1024_gap200/train/P1393__r002_c004.png",
+      "instance_id": 47482,
+      "parent_box_xyxy": [
+        3493.0,
+        2332.0,
+        3526.0,
+        2435.0
+      ],
+      "parent_id": 1393
+    },
+    {
+      "box_xyxy": [
+        604.0,
+        369.0,
+        653.0,
+        479.0
+      ],
+      "chip_origin_xy": [
+        824,
+        824
+      ],
+      "class_id": 11,
+      "class_name": "helicopter",
+      "difficulty": 0,
+      "image_id": "P1393__r001_c001",
+      "image_path": "/home/root-user/projects/PF_RPN_SR/data/DOTA-v1.0/chips_1024_gap200/train/P1393__r001_c001.png",
+      "instance_id": 47442,
+      "parent_box_xyxy": [
+        1428.0,
+        1193.0,
+        1477.0,
+        1303.0
+      ],
+      "parent_id": 1393
+    },
+    {
+      "box_xyxy": [
+        778.0,
+        609.0,
+        865.0,
+        697.0
+      ],
+      "chip_origin_xy": [
+        824,
+        1216
+      ],
+      "class_id": 12,
+      "class_name": "roundabout",
+      "difficulty": 0,
+      "image_id": "P2421__r002_c001",
+      "image_path": "/home/root-user/projects/PF_RPN_SR/data/DOTA-v1.0/chips_1024_gap200/train/P2421__r002_c001.png",
+      "instance_id": 84061,
+      "parent_box_xyxy": [
+        1602.0,
+        1825.0,
+        1689.0,
+        1913.0
+      ],
+      "parent_id": 2421
+    },
+    {
+      "box_xyxy": [
+        924.0,
+        652.0,
+        972.0,
+        698.0
+      ],
+      "chip_origin_xy": [
+        824,
+        2472
+      ],
+      "class_id": 12,
+      "class_name": "roundabout",
+      "difficulty": 0,
+      "image_id": "P1673__r003_c001",
+      "image_path": "/home/root-user/projects/PF_RPN_SR/data/DOTA-v1.0/chips_1024_gap200/train/P1673__r003_c001.png",
+      "instance_id": 55325,
+      "parent_box_xyxy": [
+        1748.0,
+        3124.0,
+        1796.0,
+        3170.0
+      ],
+      "parent_id": 1673
+    },
+    {
+      "box_xyxy": [
+        588.0,
+        708.0,
+        615.0,
+        745.0
+      ],
+      "chip_origin_xy": [
+        3269,
+        2472
+      ],
+      "class_id": 12,
+      "class_name": "roundabout",
+      "difficulty": 0,
+      "image_id": "P1599__r003_c004",
+      "image_path": "/home/root-user/projects/PF_RPN_SR/data/DOTA-v1.0/chips_1024_gap200/train/P1599__r003_c004.png",
+      "instance_id": 54916,
+      "parent_box_xyxy": [
+        3857.0,
+        3180.0,
+        3884.0,
+        3217.0
+      ],
+      "parent_id": 1599
+    },
+    {
+      "box_xyxy": [
+        240.0,
+        688.0,
+        335.0,
+        772.0
+      ],
+      "chip_origin_xy": [
+        0,
+        824
+      ],
+      "class_id": 12,
+      "class_name": "roundabout",
+      "difficulty": 0,
+      "image_id": "P2471__r001_c000",
+      "image_path": "/home/root-user/projects/PF_RPN_SR/data/DOTA-v1.0/chips_1024_gap200/train/P2471__r001_c000.png",
+      "instance_id": 84146,
+      "parent_box_xyxy": [
+        240.0,
+        1512.0,
+        335.0,
+        1596.0
+      ],
+      "parent_id": 2471
+    },
+    {
+      "box_xyxy": [
+        256.0,
+        286.0,
+        281.0,
+        312.0
+      ],
+      "chip_origin_xy": [
+        824,
+        0
+      ],
+      "class_id": 12,
+      "class_name": "roundabout",
+      "difficulty": 0,
+      "image_id": "P2522__r000_c001",
+      "image_path": "/home/root-user/projects/PF_RPN_SR/data/DOTA-v1.0/chips_1024_gap200/train/P2522__r000_c001.png",
+      "instance_id": 84230,
+      "parent_box_xyxy": [
+        1080.0,
+        286.0,
+        1105.0,
+        312.0
+      ],
+      "parent_id": 2522
+    },
+    {
+      "box_xyxy": [
+        31.0,
+        391.0,
+        133.0,
+        546.0
+      ],
+      "chip_origin_xy": [
+        0,
+        2472
+      ],
+      "class_id": 13,
+      "class_name": "soccer-ball-field",
+      "difficulty": 0,
+      "image_id": "P1587__r003_c000",
+      "image_path": "/home/root-user/projects/PF_RPN_SR/data/DOTA-v1.0/chips_1024_gap200/train/P1587__r003_c000.png",
+      "instance_id": 54770,
+      "parent_box_xyxy": [
+        31.0,
+        2863.0,
+        133.0,
+        3018.0
+      ],
+      "parent_id": 1587
+    },
+    {
+      "box_xyxy": [
+        708.0,
+        143.0,
+        789.0,
+        272.0
+      ],
+      "chip_origin_xy": [
+        0,
+        0
+      ],
+      "class_id": 13,
+      "class_name": "soccer-ball-field",
+      "difficulty": 0,
+      "image_id": "P2397__r000_c000",
+      "image_path": "/home/root-user/projects/PF_RPN_SR/data/DOTA-v1.0/chips_1024_gap200/train/P2397__r000_c000.png",
+      "instance_id": 83982,
+      "parent_box_xyxy": [
+        708.0,
+        143.0,
+        789.0,
+        272.0
+      ],
+      "parent_id": 2397
+    },
+    {
+      "box_xyxy": [
+        50.0,
+        367.0,
+        203.0,
+        502.0
+      ],
+      "chip_origin_xy": [
+        4120,
+        1648
+      ],
+      "class_id": 13,
+      "class_name": "soccer-ball-field",
+      "difficulty": 0,
+      "image_id": "P1369__r002_c005",
+      "image_path": "/home/root-user/projects/PF_RPN_SR/data/DOTA-v1.0/chips_1024_gap200/train/P1369__r002_c005.png",
+      "instance_id": 42290,
+      "parent_box_xyxy": [
+        4170.0,
+        2015.0,
+        4323.0,
+        2150.0
+      ],
+      "parent_id": 1369
+    },
+    {
+      "box_xyxy": [
+        123.0,
+        477.0,
+        552.0,
+        1009.0
+      ],
+      "chip_origin_xy": [
+        0,
+        0
+      ],
+      "class_id": 13,
+      "class_name": "soccer-ball-field",
+      "difficulty": 0,
+      "image_id": "P2585__r000_c000",
+      "image_path": "/home/root-user/projects/PF_RPN_SR/data/DOTA-v1.0/chips_1024_gap200/train/P2585__r000_c000.png",
+      "instance_id": 84863,
+      "parent_box_xyxy": [
+        123.0,
+        477.0,
+        552.0,
+        1009.0
+      ],
+      "parent_id": 2585
+    },
+    {
+      "box_xyxy": [
+        152.0,
+        387.0,
+        651.0,
+        758.0
+      ],
+      "chip_origin_xy": [
+        0,
+        824
+      ],
+      "class_id": 13,
+      "class_name": "soccer-ball-field",
+      "difficulty": 0,
+      "image_id": "P0505__r001_c000",
+      "image_path": "/home/root-user/projects/PF_RPN_SR/data/DOTA-v1.0/chips_1024_gap200/train/P0505__r001_c000.png",
+      "instance_id": 13064,
+      "parent_box_xyxy": [
+        152.0,
+        1211.0,
+        651.0,
+        1582.0
+      ],
+      "parent_id": 505
+    },
+    {
+      "box_xyxy": [
+        801.0,
+        433.0,
+        858.0,
+        467.0
+      ],
+      "chip_origin_xy": [
+        0,
+        0
+      ],
+      "class_id": 14,
+      "class_name": "swimming-pool",
+      "difficulty": 0,
+      "image_id": "P0061__r000_c000",
+      "image_path": "/home/root-user/projects/PF_RPN_SR/data/DOTA-v1.0/chips_1024_gap200/train/P0061__r000_c000.png",
+      "instance_id": 2613,
+      "parent_box_xyxy": [
+        801.0,
+        433.0,
+        858.0,
+        467.0
+      ],
+      "parent_id": 61
+    },
+    {
+      "box_xyxy": [
+        348.0,
+        159.0,
+        395.0,
+        212.0
+      ],
+      "chip_origin_xy": [
+        1648,
+        824
+      ],
+      "class_id": 14,
+      "class_name": "swimming-pool",
+      "difficulty": 0,
+      "image_id": "P0063__r001_c002",
+      "image_path": "/home/root-user/projects/PF_RPN_SR/data/DOTA-v1.0/chips_1024_gap200/train/P0063__r001_c002.png",
+      "instance_id": 2807,
+      "parent_box_xyxy": [
+        1996.0,
+        983.0,
+        2043.0,
+        1036.0
+      ],
+      "parent_id": 63
+    },
+    {
+      "box_xyxy": [
+        918.0,
+        340.0,
+        941.0,
+        404.0
+      ],
+      "chip_origin_xy": [
+        1648,
+        0
+      ],
+      "class_id": 14,
+      "class_name": "swimming-pool",
+      "difficulty": 0,
+      "image_id": "P0064__r000_c002",
+      "image_path": "/home/root-user/projects/PF_RPN_SR/data/DOTA-v1.0/chips_1024_gap200/train/P0064__r000_c002.png",
+      "instance_id": 3038,
+      "parent_box_xyxy": [
+        2566.0,
+        340.0,
+        2589.0,
+        404.0
+      ],
+      "parent_id": 64
+    },
+    {
+      "box_xyxy": [
+        229.0,
+        266.0,
+        362.0,
+        385.0
+      ],
+      "chip_origin_xy": [
+        0,
+        0
+      ],
+      "class_id": 14,
+      "class_name": "swimming-pool",
+      "difficulty": 0,
+      "image_id": "P1084__r000_c000",
+      "image_path": "/home/root-user/projects/PF_RPN_SR/data/DOTA-v1.0/chips_1024_gap200/train/P1084__r000_c000.png",
+      "instance_id": 37264,
+      "parent_box_xyxy": [
+        229.0,
+        266.0,
+        362.0,
+        385.0
+      ],
+      "parent_id": 1084
+    },
+    {
+      "box_xyxy": [
+        841.0,
+        215.0,
+        881.0,
+        254.0
+      ],
+      "chip_origin_xy": [
+        0,
+        0
+      ],
+      "class_id": 14,
+      "class_name": "swimming-pool",
+      "difficulty": 0,
+      "image_id": "P1906__r000_c000",
+      "image_path": "/home/root-user/projects/PF_RPN_SR/data/DOTA-v1.0/chips_1024_gap200/train/P1906__r000_c000.png",
+      "instance_id": 64612,
+      "parent_box_xyxy": [
+        841.0,
+        215.0,
+        881.0,
+        254.0
+      ],
+      "parent_id": 1906
+    }
+  ]
+}

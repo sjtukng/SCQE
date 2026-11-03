@@ -1,0 +1,292 @@
+{
+  "policy": "Verified original sampler; one draw per class with 1/5/10 nested prefixes; no query labels.",
+  "seed": 3407,
+  "shared_usage": [
+    "internal_comparison_v2_pending",
+    "all_external_methods"
+  ],
+  "shot": 1,
+  "support": [
+    {
+      "area": 137788.0,
+      "box_xyxy": [
+        280.0,
+        144.0,
+        798.0,
+        410.0
+      ],
+      "category": "Expressway-Service-area",
+      "class_id": 0,
+      "image_id": 20810,
+      "image_path": "train/new_train/20810.jpg",
+      "instance_id": 125885
+    },
+    {
+      "area": 9628.0,
+      "box_xyxy": [
+        455.0,
+        295.0,
+        571.0,
+        378.0
+      ],
+      "category": "Expressway-toll-station",
+      "class_id": 1,
+      "image_id": 754,
+      "image_path": "train/new_train/00754.jpg",
+      "instance_id": 3787
+    },
+    {
+      "area": 1980.0,
+      "box_xyxy": [
+        645.0,
+        425.0,
+        689.0,
+        470.0
+      ],
+      "category": "airplane",
+      "class_id": 2,
+      "image_id": 20473,
+      "image_path": "train/new_train/20473.jpg",
+      "instance_id": 122804
+    },
+    {
+      "area": 127218.0,
+      "box_xyxy": [
+        63.0,
+        519.0,
+        762.0,
+        701.0
+      ],
+      "category": "airport",
+      "class_id": 3,
+      "image_id": 17486,
+      "image_path": "train/new_train/17486.jpg",
+      "instance_id": 92366
+    },
+    {
+      "area": 19740.0,
+      "box_xyxy": [
+        203.0,
+        190.0,
+        343.0,
+        331.0
+      ],
+      "category": "baseballfield",
+      "class_id": 4,
+      "image_id": 5829,
+      "image_path": "train/new_train/05829.jpg",
+      "instance_id": 30857
+    },
+    {
+      "area": 5130.0,
+      "box_xyxy": [
+        512.0,
+        699.0,
+        569.0,
+        789.0
+      ],
+      "category": "basketballcourt",
+      "class_id": 5,
+      "image_id": 2167,
+      "image_path": "train/new_train/02167.jpg",
+      "instance_id": 11318
+    },
+    {
+      "area": 72680.0,
+      "box_xyxy": [
+        227.0,
+        306.0,
+        543.0,
+        536.0
+      ],
+      "category": "bridge",
+      "class_id": 6,
+      "image_id": 15521,
+      "image_path": "train/new_train/15521.jpg",
+      "instance_id": 73941
+    },
+    {
+      "area": 4347.0,
+      "box_xyxy": [
+        617.0,
+        349.0,
+        686.0,
+        412.0
+      ],
+      "category": "chimney",
+      "class_id": 7,
+      "image_id": 15676,
+      "image_path": "train/new_train/15676.jpg",
+      "instance_id": 75410
+    },
+    {
+      "area": 24378.0,
+      "box_xyxy": [
+        313.0,
+        431.0,
+        415.0,
+        670.0
+      ],
+      "category": "dam",
+      "class_id": 8,
+      "image_id": 17646,
+      "image_path": "train/new_train/17646.jpg",
+      "instance_id": 94117
+    },
+    {
+      "area": 98547.0,
+      "box_xyxy": [
+        96.0,
+        374.0,
+        403.0,
+        695.0
+      ],
+      "category": "golffield",
+      "class_id": 9,
+      "image_id": 17200,
+      "image_path": "train/new_train/17200.jpg",
+      "instance_id": 89497
+    },
+    {
+      "area": 2030.0,
+      "box_xyxy": [
+        678.0,
+        521.0,
+        736.0,
+        556.0
+      ],
+      "category": "groundtrackfield",
+      "class_id": 10,
+      "image_id": 11986,
+      "image_path": "train/new_train/11986.jpg",
+      "instance_id": 37889
+    },
+    {
+      "area": 6962.0,
+      "box_xyxy": [
+        270.0,
+        156.0,
+        329.0,
+        274.0
+      ],
+      "category": "harbor",
+      "class_id": 11,
+      "image_id": 3440,
+      "image_path": "train/new_train/03440.jpg",
+      "instance_id": 17711
+    },
+    {
+      "area": 1530.0,
+      "box_xyxy": [
+        254.0,
+        396.0,
+        305.0,
+        426.0
+      ],
+      "category": "overpass",
+      "class_id": 12,
+      "image_id": 13135,
+      "image_path": "train/new_train/13135.jpg",
+      "instance_id": 50728
+    },
+    {
+      "area": 406.0,
+      "box_xyxy": [
+        186.0,
+        604.0,
+        200.0,
+        633.0
+      ],
+      "category": "ship",
+      "class_id": 13,
+      "image_id": 12036,
+      "image_path": "train/new_train/12036.jpg",
+      "instance_id": 38646
+    },
+    {
+      "area": 10640.0,
+      "box_xyxy": [
+        526.0,
+        99.0,
+        621.0,
+        211.0
+      ],
+      "category": "stadium",
+      "class_id": 14,
+      "image_id": 16673,
+      "image_path": "train/new_train/16673.jpg",
+      "instance_id": 84844
+    },
+    {
+      "area": 208.0,
+      "box_xyxy": [
+        558.0,
+        297.0,
+        574.0,
+        310.0
+      ],
+      "category": "storagetank",
+      "class_id": 15,
+      "image_id": 20947,
+      "image_path": "train/new_train/20947.jpg",
+      "instance_id": 127454
+    },
+    {
+      "area": 3825.0,
+      "box_xyxy": [
+        647.0,
+        384.0,
+        692.0,
+        469.0
+      ],
+      "category": "tenniscourt",
+      "class_id": 16,
+      "image_id": 16565,
+      "image_path": "train/new_train/16565.jpg",
+      "instance_id": 83980
+    },
+    {
+      "area": 72712.0,
+      "box_xyxy": [
+        86.0,
+        425.0,
+        574.0,
+        574.0
+      ],
+      "category": "trainstation",
+      "class_id": 17,
+      "image_id": 16544,
+      "image_path": "train/new_train/16544.jpg",
+      "instance_id": 83735
+    },
+    {
+      "area": 247.0,
+      "box_xyxy": [
+        372.0,
+        473.0,
+        385.0,
+        492.0
+      ],
+      "category": "vehicle",
+      "class_id": 18,
+      "image_id": 20332,
+      "image_path": "train/new_train/20332.jpg",
+      "instance_id": 120697
+    },
+    {
+      "area": 1320.0,
+      "box_xyxy": [
+        301.0,
+        105.0,
+        345.0,
+        135.0
+      ],
+      "category": "windmill",
+      "class_id": 19,
+      "image_id": 21424,
+      "image_path": "train/new_train/21424.jpg",
+      "instance_id": 132441
+    }
+  ],
+  "version": "shared_supports_v1_20261024"
+}
